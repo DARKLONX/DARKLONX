@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "DARKLONXOP"
+          find: "LEGEND"
 
           replace: "DARKLONX"
 
