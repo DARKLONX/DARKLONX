@@ -1,6 +1,6 @@
 #    Copyright (C) 2020 KeinShin
 
-######### maked by LEGENDX22 🔥🔥🔥###################
+######### maked by DARKLONX22 🔥🔥🔥###################
 
 #    This program is free software: you can redistribute it and/or modify
 
@@ -37,7 +37,7 @@ Midhun_xD
 
 @Shivam_Patel
 
-@LEGENDX22
+@DARKLONX22
 
 """
 
@@ -129,7 +129,7 @@ LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
  
 
-from LEGENDX import ID
+from DARKLONX import ID
 from telethon import events
 
 BOT_MSG = os.environ.get("BOT_MSG", None)

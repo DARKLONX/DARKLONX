@@ -33,7 +33,7 @@ uptime = tim
 #time = date + time okay
 TIME = time.asctime(time.localtime())
 #my name 👇
-LEGENDX = "[LEGEND X](https://t.me/legendx22)"
+DARKLONX = "[LEGEND X](https://t.me/legendx22)"
 #my bots repo 👇
 REPO = "[LEGEND BOT](https://github.com/legendx22/LEGEND-BOT)"
 #grpup👇NAME = "[{MAATER}](tg://user?id={X})"
@@ -45,6 +45,6 @@ MASTER = f"[{NAME}](tg://user?id={X})"
 GROUP = "[SUPPORT GROUP](https://t.me/LEGEND_USERBOT_SUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
-ALIVE = "LEGEND BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX22
+ALIVE = "LEGEND BOT IS ON 🔥 FIRE 🔥" #make by DARKLONX22
 OP = " HELLO MASTER MY NAME IS LEGEND BOT I AM A BEST USERBOT 💝"
 EMOJI = "🔥"

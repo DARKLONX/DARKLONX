@@ -1,8 +1,8 @@
-#Made By @LEGENDX22
+#Made By @DARKLONX22
 
 """ Making A Shayri... 
     Command .rshayri
-    By @LEGENDX22 """
+    By @DARKLONX22 """
 
 from telethon import events
 import asyncio

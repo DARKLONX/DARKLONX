@@ -1,4 +1,4 @@
-# Made by @LEGENDX22 FOR LEGEND BOT
+# Made by @DARKLONX22 FOR LEGEND BOT
 import asyncio
 import io
 

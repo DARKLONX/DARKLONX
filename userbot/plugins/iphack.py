@@ -1,4 +1,4 @@
-#made by LEGENDX22 creaor LEGENDX22
+#made by DARKLONX22 creaor DARKLONX22
 #kang with credits else gay aur maa chod dunga 
 
 
