@@ -32,7 +32,7 @@ PHOTO = os.environ.get("ALIVE_PHOTTO", None)
 DARKLONX = "[DARKLONX X](https://t.me/DARKLONX22)"
 VERSION = "3.1.5"
 ID = 1100231654
-REPO = "[DARKLONX BOT](https://github.com/DARKLONXOP/DARKLONX-BOT)"
+REPO = "[DARKLONX BOT](https://github.com/DARKLONXOP/DARKLONX)"
 PRO = bot.uid
 MASTER = f"[{NAME}](tg://user?id={PRO})"
 GROUP = "[SUPPORT GROUP](https://t.me/DARKLONX_USERBOT_SUPPORT)"

@@ -1,6 +1,6 @@
 # HELLO THIS IS 1ST TUTORIAL
 
-# for DARKLONX-BOT
+# for DARKLONX
 from userbot.utils import admin_cmd
 import asyncio
 @borg.on(admin_cmd(pattern="hi"))

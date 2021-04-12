@@ -76,7 +76,7 @@ async def stats(
     response += f'🔱 **Unread:** {unread} \n'
     response += f'🔱 **Unread Mentions:** {unread_mentions} \n\n'
     response += f'☣️   __It Took:__ {stop_time:.02f}s \n'
-    response += f'📌 **From The DataBase Of** :- [DARKLONX BOT](https://github.com/legendx22/DARKLONX-BOT)'
+    response += f'📌 **From The DataBase Of** :- [DARKLONX BOT](https://github.com/legendx22/DARKLONX)'
     await hell.edit(response)
 
 
