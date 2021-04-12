@@ -19,9 +19,9 @@ jobs:
 
         with:
 
-          find: "DARKLONX"
+          find: "DARKLONXOP"
 
-          replace: "DARKLONXOP"
+          replace: "DARKLONX"
 
       - name: Create Pull Request
 
