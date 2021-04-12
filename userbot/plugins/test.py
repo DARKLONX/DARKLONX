@@ -1,5 +1,5 @@
     
-#Credit To @legendx22 . Keep credit if you are going to edit it. Join @DARKLONX_USERBOT_SUPPORT
+#Credit To @DARKLONX . Keep credit if you are going to edit it. Join @DARKLONX_USERBOT_SUPPORT
 
 
 import random, re

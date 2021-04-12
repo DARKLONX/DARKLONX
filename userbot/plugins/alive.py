@@ -36,7 +36,7 @@ async def callback_query_handler(event):
 # inline by DARKLONX22 and PROBOY22 🔥
   PROBOYX = [[Button.url("REPO-DARKLONX", "https://github.com/DARKLONXOP/DARKLONX")]]
   PROBOYX +=[[Button.url("DEPLOY-DARKLONX", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2Flegendpack&template=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2Flegendpack")]]
-  PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@legendx22/DARKLONX#main.py")]]
+  PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@DARKLONX/DARKLONX#main.py")]]
   PROBOYX +=[[Button.url("API_ID & HASH", "https://t.me/usetgxbot"), Button.url("REDIS", "https://redislabs.com")]]
   PROBOYX +=[[Button.url("SUPPORT CHANNEL", "https://t.me/DARKLONXBOT_OFFICIAL"), Button.url("SUPPORT GROUP", "https://t.me/DARKLONX_USERBOT_SUPPORT")]]
   PROBOYX +=[[custom.Button.inline("ALIVE", data="PROBOY")]]

@@ -1,5 +1,5 @@
 """
-credits to @legendx22
+credits to @DARKLONX
 """
 # Kang with credits. Using in DARKLONX BOT...
 #    Copyright (C) 2020  sandeep.n(π.$)

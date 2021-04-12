@@ -1,6 +1,6 @@
 # Created By starkdy And Ported For Type 2 Userbot By StarkxD
-# modified and added more tweets by @legendx22 for DARKLONXBOT.....
-# added sudo support by @legendx22
+# modified and added more tweets by @DARKLONX for DARKLONXBOT.....
+# added sudo support by @DARKLONX
 # family completed.....
 # mia, johhny, sunny
 # modi, rahul, trump, gandhiji
@@ -15,21 +15,21 @@ from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 @bot.on(admin_cmd(pattern=r"tweet(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="tweet(?: |$)(.*)", allow_sudo=True))
-async def nope(legendx22):
-    hell = legendx22.pattern_match.group(1)
+async def nope(DARKLONX):
+    hell = DARKLONX.pattern_match.group(1)
     if not hell:
-        if legendx22.is_reply:
-            what = (await legendx22.get_reply_message()).message
+        if DARKLONX.is_reply:
+            what = (await DARKLONX.get_reply_message()).message
         else:
-            await legendx22.edit("I need some text to make a tweet🚶")
+            await DARKLONX.edit("I need some text to make a tweet🚶")
             return
     tweeter = await bot.inline_query(
         "TwitterStatusBot", f"{(deEmojify(hell))}")
-    await tweeter[0].click(legendx22.chat_id,
-                            reply_to=legendx22.reply_to_msg_id,
-                            silent=True if legendx22.is_reply else False,
+    await tweeter[0].click(DARKLONX.chat_id,
+                            reply_to=DARKLONX.reply_to_msg_id,
+                            silent=True if DARKLONX.is_reply else False,
                             hide_via=True)
-    await legendx22.delete()
+    await DARKLONX.delete()
 
 
 @bot.on(admin_cmd(pattern=r"trump(?: |$)(.*)"))

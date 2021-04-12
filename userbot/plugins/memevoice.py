@@ -1,5 +1,5 @@
 #Credits to @spechide and his team for @TROLLVOICEBOT
-#made by @legendx22 from the snippets of waifu AKA stickerizerbot....
+#made by @DARKLONX from the snippets of waifu AKA stickerizerbot....
 #kang karega kya madarchod?
 #aukaat h bsdk teri...jake baap ka loda chus ke aa....
 
@@ -48,25 +48,25 @@ def deEmojify(inputString: str) -> str:
 
 
 @borg.on(admin_cmd(pattern="mev(?: |$)(.*)"))
-async def nope(legendx22):
-    hell = legendx22.pattern_match.group(1)
+async def nope(DARKLONX):
+    hell = DARKLONX.pattern_match.group(1)
     if not hell:
-        if legendx22.is_reply:
-            what = (await legendx22.get_reply_message()).message
+        if DARKLONX.is_reply:
+            what = (await DARKLONX.get_reply_message()).message
         else:
-            await legendx22.edit("`Sir please give some query to search and download it for you..!`")
+            await DARKLONX.edit("`Sir please give some query to search and download it for you..!`")
             return
 
     troll = await bot.inline_query(
 
         "TrollVoiceBot", f"{(deEmojify(hell))}")
 
-    await troll[0].click(legendx22.chat_id,
+    await troll[0].click(DARKLONX.chat_id,
 
-                            reply_to=legendx22.reply_to_msg_id,
+                            reply_to=DARKLONX.reply_to_msg_id,
 
-                            silent=True if legendx22.is_reply else False,
+                            silent=True if DARKLONX.is_reply else False,
 
                             hide_via=True)
 
-    await legendx22.delete()
+    await DARKLONX.delete()

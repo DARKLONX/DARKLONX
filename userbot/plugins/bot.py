@@ -25,7 +25,7 @@ from io import BytesIO
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
 ALIVE_PHOTTO = PHOTO
 
-pro_text=(f"**{BOT} IS ON FIRE **\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n🔥 About My System 🔥\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ 1.20\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/DARKLONXBOT_OFFICIAL)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [DARKLONX BOT](https://github.com/legendx22)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [DARKLONX](https://github.com/legendx22/DARKLONX)\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
+pro_text=(f"**{BOT} IS ON FIRE **\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n🔥 About My System 🔥\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ 1.20\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/DARKLONXBOT_OFFICIAL)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [DARKLONX BOT](https://github.com/DARKLONX)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [DARKLONX](https://github.com/DARKLONX/DARKLONX)\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
 TG_BOT_USER_NAME_BF_HER = os.environ.get("ALIVE_PHOTTO", None)
 if TG_BOT_USER_NAME_BF_HER is not None:
     @tgbot.on(events.InlineQuery)
@@ -38,8 +38,8 @@ if TG_BOT_USER_NAME_BF_HER is not None:
             buttons = [
                 [
                     Button.url("Repo", "https://github.com/DARKLONXOP/DARKLONX"),
-                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/legendx22/DARKLONX/blob/master")],
-                    [Button.url("String", "https://repl.it/legendx22/DARKLONX#main.py"),
+                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARKLONX/DARKLONX/blob/master")],
+                    [Button.url("String", "https://repl.it/DARKLONX/DARKLONX#main.py"),
                     Button.url("Channel", "https://t.me/teamishere"),
                 ]
             ]

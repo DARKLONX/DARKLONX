@@ -1,5 +1,5 @@
 #credits to userge
-#ported to DARKLONXBOT by @legendx22
+#ported to DARKLONXBOT by @DARKLONX
 #will be adding more soon
 
 import os, urllib, requests, asyncio

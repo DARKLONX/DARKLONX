@@ -25,7 +25,7 @@ async def _(event):
     if reply_message.sender.bot:
         await edit_or_reply(event, "Reply to actual users message.")
         return
-    legendx22 = await edit_or_reply(event, "Trying to convert...")
+    DARKLONX = await edit_or_reply(event, "Trying to convert...")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -34,14 +34,14 @@ async def _(event):
             await event.client.send_message(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await legendx22.edit("```Please unblock @TelescopyBot and try again```")
+            await DARKLONX.edit("```Please unblock @TelescopyBot and try again```")
             return
         if response.text.startswith("Forward"):
-            await legendx22.edit(
+            await DARKLONX.edit(
                 "```can you kindly disable your forward privacy settings for good?```"
             )
         else:
-            await legendx22.delete()
+            await DARKLONX.delete()
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,

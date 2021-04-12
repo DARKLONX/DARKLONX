@@ -1,4 +1,4 @@
-#credits to @legendx22
+#credits to @DARKLONX
 """
 Userbot module aage ni pta kuch
 """

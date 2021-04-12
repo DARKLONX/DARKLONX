@@ -1,5 +1,5 @@
 # -0,0 +1,96 @@
-# Made by legendx22
+# Made by DARKLONX
 # Retrieves the name history and the username history of the replied user.
 import datetime
 from telethon import events
