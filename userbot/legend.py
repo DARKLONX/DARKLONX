@@ -1,8 +1,3 @@
-#kang krne aaye ho  chala ja bhosdike tere kaam ka ni h ye
-#make by legendx22 for chutiapa 🤔🤔🤔 you dont kang this 
-#okay to ab isme cheeze bharte h 
-#if you read only this then okay else
-#chala jaa bhosdike 
 #import krte h pehle 👇
 import asyncio
 from telethon import events
