@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "DARKLONXOP"
+          find: "DARKLONX22"
 
           replace: "DARKLONX"
 
