@@ -1,5 +1,5 @@
 
-name: DARKLONXOP
+name: DARKL
 
 on: push
 
@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "DARKLONX-BOT"
+          find: "LEGENDX22"
 
           replace: "DARKLONX"
 
@@ -35,6 +35,6 @@ jobs:
 
           repository: .
 
-          commit_user_name: DARKLONX
+          commit_user_name: DARKLONXOP
 
-          commit_user_email: l@gmail.com
+          commit_user_email: l1@gmail.com
