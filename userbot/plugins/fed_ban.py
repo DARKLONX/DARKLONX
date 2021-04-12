@@ -12,7 +12,7 @@ PRO = NAME
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**STARTING LEGENDS BAN BY {PRO}**...")
+    await event.edit(f"**STARTING DARKLONXS BAN BY {PRO}**...")
     fedList = []
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
@@ -34,12 +34,12 @@ async def _(event):
                 REASON = arg[2]
             else:
                 FBAN = arg[1]
-                REASON = " #LEGENDS FBANNED🔥 "
+                REASON = " #DARKLONXS FBANNED🔥 "
         else:
             FBAN = previous_message.sender_id
             REASON = event.text.split(" ", maxsplit=1)[1]
             if REASON.strip() == "":
-                REASON = " #LEGENDS FBANNED 🔥"
+                REASON = " #DARKLONXS FBANNED 🔥"
     else:
         arg = event.text.split(" ", maxsplit=2)
         if len(arg) > 2:
@@ -47,7 +47,7 @@ async def _(event):
             REASON = arg[2]
         else:
             FBAN = arg[1]
-            REASON = " #LEGENDS FBANNED 🔥 "
+            REASON = " #DARKLONXS FBANNED 🔥 "
     try:
         int(FBAN)
         if int(FBAN) == 1281934570 or int(FBAN) == 1100231654:
@@ -136,7 +136,7 @@ async def _(event):
         await bot.send_message(chat, f"/fban {FBAN} {REASON}")
         await asyncio.sleep(3)
     await event.edit(
-        f"SuperFBan Completed. Affected {len(fedList) - exCount} feds.\n#LEGEND BOT"
+        f"SuperFBan Completed. Affected {len(fedList) - exCount} feds.\n#DARKLONX BOT"
     )
 
 
@@ -148,7 +148,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**STARTING LEGENDS UNFBANNING BY {PRO}**...")
+    await event.edit(f"**STARTING DARKLONXS UNFBANNING BY {PRO}**...")
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         FBAN = previous_message.sender_id
@@ -214,10 +214,10 @@ async def _(event):
         await asyncio.sleep(5)
         await bot.send_message(chat, f"/unfban {FBAN}")
         await asyncio.sleep(5)
-    await event.edit(f"SuperUnFBan Completed. Affected {len(fedList)} Feds by {PRO}.\n#LEGENDBOT")
+    await event.edit(f"SuperUnFBan Completed. Affected {len(fedList)} Feds by {PRO}.\n#DARKLONXBOT")
 
 
-# By TEAMLEGEND
+# By TEAMDARKLONX
 # OWNED BY TELEBOT
 
 CMD_HELP.update(

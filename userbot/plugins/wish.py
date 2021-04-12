@@ -1,8 +1,8 @@
-# made by @Alain_Champion and TEAMLEGEND
+# made by @Alain_Champion and TEAMDARKLONX
 # Credites :- @DARKLONX22 , @PROBOYX
 # if you kang this please keep credits
 
-# SPECIES THANKS TEAMLEGEND
+# SPECIES THANKS TEAMDARKLONX
 
 import os
 import time
@@ -20,7 +20,7 @@ import re
 import io
 from platform import python_version, uname
 @bot.on(admin_cmd(pattern="wish ?(.*)"))
-async def LEGENDBOT(event):
+async def DARKLONXBOT(event):
     DARKLONX = event.pattern_match.group(1)
     PROBOY = random.randint(0, 100)
     if DARKLONX:

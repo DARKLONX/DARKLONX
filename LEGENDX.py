@@ -25,17 +25,17 @@ import time
 from userbot import botnickname, ALIVE_NAME, bot
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
 xbot = TelegramClient("legend", API_ID, API_HASH).start(bot_token=token)
-pbot = Client("LEGEND", api_id=API_ID, api_hash=API_HASH, bot_token=token)
-BOT = str(botnickname) if botnickname else "LEGEND BOT"
-NAME = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
+pbot = Client("DARKLONX", api_id=API_ID, api_hash=API_HASH, bot_token=token)
+BOT = str(botnickname) if botnickname else "DARKLONX BOT"
+NAME = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
 PHOTO = os.environ.get("ALIVE_PHOTTO", None)
-DARKLONX = "[LEGEND X](https://t.me/DARKLONX22)"
+DARKLONX = "[DARKLONX X](https://t.me/DARKLONX22)"
 VERSION = "3.1.5"
 ID = 1100231654
-REPO = "[LEGEND BOT](https://github.com/DARKLONXOP/LEGEND-BOT)"
+REPO = "[DARKLONX BOT](https://github.com/DARKLONXOP/DARKLONX-BOT)"
 PRO = bot.uid
 MASTER = f"[{NAME}](tg://user?id={PRO})"
-GROUP = "[SUPPORT GROUP](https://t.me/LEGEND_USERBOT_SUPPORT)"
+GROUP = "[SUPPORT GROUP](https://t.me/DARKLONX_USERBOT_SUPPORT)"
 if __name__=="__main__":
   xbot.run_until_disconnected()
 

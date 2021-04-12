@@ -1,6 +1,6 @@
 # HELLO THIS IS 1ST TUTORIAL
 
-# for LEGEND-BOT
+# for DARKLONX-BOT
 from userbot.utils import admin_cmd
 import asyncio
 @borg.on(admin_cmd(pattern="hi"))
@@ -32,8 +32,8 @@ async def legendx(event):
 
 # for grand official
 import asyncio
-from LEGEND import telethn as bot 
-from LEGEND.events import register
+from DARKLONX import telethn as bot 
+from DARKLONX.events import register
 @register(pattern="/hi")
 async def hehe(event):
 # bots cannot use event.edit method

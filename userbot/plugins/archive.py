@@ -58,7 +58,7 @@ async def _(event):
     await borg.send_file(
         event.chat_id,
         directory_name + ".zip",
-        caption="Zipped By LEGENDBOT",
+        caption="Zipped By DARKLONXBOT",
         force_document=True,
         allow_cache=False,
         reply_to=event.message.id,
@@ -102,7 +102,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 directory_name + ".rar",
-                caption="rarred By LEGENDBOT",
+                caption="rarred By DARKLONXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,
@@ -152,7 +152,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 directory_name + ".7z",
-                caption="7z archived By LEGENDBOT",
+                caption="7z archived By DARKLONXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,
@@ -206,7 +206,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 output,
-                caption="TAR By LEGENDBOT",
+                caption="TAR By DARKLONXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,

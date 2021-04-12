@@ -1,4 +1,4 @@
-#Ascii module by @legendx22 for @LEGENDBOT_official
+#Ascii module by @legendx22 for @DARKLONXBOT_official
 #A over powerful bot
 #I know u will kang... 
 #GTFO!! MOTHERFUCKER!!!!!!!!!!!

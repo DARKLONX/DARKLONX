@@ -1,5 +1,5 @@
 # Coded by @CyberBoyAyush
-# For LEGENDBOT : https://github.com/DARKLONXOP/LEGEND-BOT
+# For DARKLONXBOT : https://github.com/DARKLONXOP/DARKLONX-BOT
 
 
 from telethon import events

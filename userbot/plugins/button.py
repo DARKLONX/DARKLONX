@@ -5,7 +5,7 @@
 (((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
 (((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
                MADE BY DARKLONX22 AND PROBOYX
-                 CREDITS TEAMLEGEND
+                 CREDITS TEAMDARKLONX
                DONT REMOVE THIS LINES
 """
 from userbot.utils import admin_cmd

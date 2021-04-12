@@ -26,11 +26,11 @@ import io
 from platform import python_version, uname
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
 
 global kanger #kanger aaya bhaago bc
         
-#make by LEGEND X bht mehnat lag gayi yrr but banhi gaya 😅           
+#make by DARKLONX X bht mehnat lag gayi yrr but banhi gaya 😅           
 @borg.on(admin_cmd(pattern=r"awake"))
 async def amireallyalive(awake):
    """ For .awake command, check if the bot is running.  """
@@ -45,8 +45,8 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔶 𝙻𝙴𝙶𝙴𝙽𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 🔶 :   {VERSION}\n\n"
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
-     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGEND_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/DARKLONX_USERBOT_SUPPORT)\n\n"
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FDARKLONX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    elif PHOTO == None:
@@ -60,8 +60,8 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔶 𝙻𝙴𝙶𝙴𝙽𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 🔶 :   {VERSION}\n\n"
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
-     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGEND_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEND-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/DARKLONX_USERBOT_SUPPORT)\n\n"
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONXOP%2FDARKLONX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    else:

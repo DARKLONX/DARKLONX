@@ -6,7 +6,7 @@
 
 
                   made by @DARKLONX22
-                  credits TEAMLEGEND
+                  credits TEAMDARKLONX
                   idea by @Alain_Champion 
  ((((((((((((((((((((((((( @DARKLONX22 AND @PROBOYX)))))))))))))))))))))))))))
 """
@@ -15,7 +15,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot import CMD_HELP
 from userbot.utils import admin_cmd
 from DARKLONX import MASTER
-LEGEND = MASTER
+DARKLONX = MASTER
 PROBOY = "@tgscanrobot"
 # MADE BY DARKLONX22 🔥🔥
 
@@ -28,7 +28,7 @@ async def _(event):
         async with borg.conversation(PROBOY) as conv:
             try:
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}")
+                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}")
                 await conv.send_message("/start")
                 await conv.get_response() #made by DARKLONX22
                 await conv.send_message(f"{DARKLONX}")
@@ -43,7 +43,7 @@ async def _(event):
         async with borg.conversation(PROBOY) as conv:
             try: #made by DARKLONX22 🔥
               #made by DARKLONX22 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}")
+                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}")
                 await conv.send_message("/start")
                 await conv.get_response() #made by DARKLONX22
                 await conv.send_message(f"{PRO}")
@@ -56,7 +56,7 @@ async def _(event):
         async with borg.conversation(PROBOY) as conv:
             try: #made by DARKLONX22 🔥
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGEND}") 
+                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}") 
                 await conv.send_message("/start")
                 await conv.get_response()
                 await conv.send_message(f"{PRO}")

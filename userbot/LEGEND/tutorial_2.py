@@ -11,7 +11,7 @@ async def hehe (event):
 
 
 # FOR Grand official
-from LEGEND.events import register
+from DARKLONX.events import register
 @register(pattern="/taag")
 async def hehe (event):
   try:

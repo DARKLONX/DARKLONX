@@ -1,4 +1,4 @@
-#codes by DARKLONX22 best codes by LEGEND X
+#codes by DARKLONX22 best codes by DARKLONX X
 #kang keep credits
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
