@@ -37,7 +37,7 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
-                    Button.url("Repo", "https://github.com/DARKLONXOP/DARKLONX"),
+                    Button.url("Repo", "https://github.com/DARKLONX/DARKLONX"),
                     Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARKLONX/DARKLONX/blob/master")],
                     [Button.url("String", "https://repl.it/DARKLONX/DARKLONX#main.py"),
                     Button.url("Channel", "https://t.me/teamishere"),
