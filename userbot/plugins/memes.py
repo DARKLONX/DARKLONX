@@ -851,10 +851,10 @@ async def vapor(vpr):
 async def repo(event):
     if event.fwd_from:
         return
-    DARKLONXOP = Var.TG_BOT_USER_NAME_BF_HER
+    DARKLONX = Var.TG_BOT_USER_NAME_BF_HER
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(DARKLONXOP, "repo")
+    response = await bot.inline_query(DARKLONX, "repo")
     await response[0].click(event.chat_id)
     await event.delete()
 

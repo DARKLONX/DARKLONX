@@ -1,20 +1,20 @@
 import asyncio
 # made by telebot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONXOP import NAME
+from DARKLONX import NAME
 from userbot import CMD_HELP
 from userbot import bot
 from userbot.utils import admin_cmd
 
 bot = "@MissRose_bot"
-DARKLONXOP = NAME
+DARKLONX = NAME
 
 
 @borg.on(admin_cmd("fstat ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    ok = await event.edit(f"**CHECKING BY {DARKLONXOP}**...")
+    ok = await event.edit(f"**CHECKING BY {DARKLONX}**...")
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         sysarg = str(previous_message.sender_id)
@@ -41,7 +41,7 @@ async def _(event):
                     await borg.send_file(
                         event.chat_id,
                         audio,
-                        caption=f"List of feds {user} has been banned in.\n\nFSTATS CHECKED BY {DARKLONXOP} 🔥\n\nCollected by LEGEND BOT.",
+                        caption=f"List of feds {user} has been banned in.\n\nFSTATS CHECKED BY {DARKLONX} 🔥\n\nCollected by LEGEND BOT.",
                     )
                 else:
                     await borg.send_message(event.chat_id, audio.text)

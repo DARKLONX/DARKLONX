@@ -1,4 +1,4 @@
-# made by DARKLONXOP22
+# made by DARKLONX22
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 

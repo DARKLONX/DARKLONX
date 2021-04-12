@@ -1,4 +1,4 @@
-# ported  by shivam and  DARKLONXOP22
+# ported  by shivam and  DARKLONX22
 #own Friday 
 # bekar plugin h kaam ni krta kisi ksi ka chalta h bas
 # KEEP CREDITS

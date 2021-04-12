@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 print("")
-print("""Welcome To LEGEND BOT String Generator By @DARKLONXOP22""")
+print("""Welcome To LEGEND BOT String Generator By @DARKLONX22""")
 print("""Kindly Enter Your Details To Continue ! """)
 
 API_KEY = input("API_KEY: ")

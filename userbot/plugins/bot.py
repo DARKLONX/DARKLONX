@@ -1,9 +1,9 @@
-# make by @DARKLONXOP22
+# make by @DARKLONX22
 # inline alive
 # modify by proboy22
 import asyncio
 import os
-from DARKLONXOP import BOT, PHOTO, VERSION
+from DARKLONX import BOT, PHOTO, VERSION
 import requests
 import time
 from PIL import Image
@@ -37,7 +37,7 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
-                    Button.url("Repo", "https://github.com/DARKLONXOPOP/LEGEND-BOT"),
+                    Button.url("Repo", "https://github.com/DARKLONXOP/LEGEND-BOT"),
                     Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/legendx22/LEGEND-BOT/blob/master")],
                     [Button.url("String", "https://repl.it/legendx22/LEGEND-BOT#main.py"),
                     Button.url("Channel", "https://t.me/teamishere"),
@@ -76,9 +76,9 @@ from userbot import bot
 async def repo(event):
     if event.fwd_from:
         return
-    DARKLONXOP = Var.TG_BOT_USER_NAME_BF_HER
+    DARKLONX = Var.TG_BOT_USER_NAME_BF_HER
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(DARKLONXOP, "alive")
+    response = await bot.inline_query(DARKLONX, "alive")
     await response[0].click(event.chat_id)
     await event.delete()
