@@ -1,12 +1,12 @@
-# COPYRIGHT © BY DARKLONX22
+# COPYRIGHT © BY DARKLONXOP22
 
 """
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONXOP22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONXOP22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONXOP22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONXOP22)))))))))))))))))))))))))))
 
-                 MADE BY DARKLONX22
+                 MADE BY DARKLONXOP22
                  IDEA BY PROBOYX
                  CREDITS TEAMLEGEND
                  PLEASE KEEP CREDITS 🥺
@@ -15,7 +15,7 @@
 
 
 from telethon import events, Button, custom
-from DARKLONX import BOT
+from DARKLONXOP import BOT
 import os,re
 from telethon.tl.custom import Button 
 from telethon import events, errors, custom, functions
@@ -29,5 +29,5 @@ async def inline_id_handler(event: events.InlineQuery.Event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"obhai")))
 async def callback_query_handler(event):
 
-# inline by DARKLONX22 and PROBOYX 🔥
-  await event.edit(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/DARKLONXOP/LEGEND-BOT"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/LEGEND_USERBOT_SUPPORT")]])
+# inline by DARKLONXOP22 and PROBOYX 🔥
+  await event.edit(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/DARKLONXOPOP/LEGEND-BOT"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/LEGEND_USERBOT_SUPPORT")]])

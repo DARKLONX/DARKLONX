@@ -1,5 +1,5 @@
 # made by @Alain_Champion and TEAMLEGEND
-# Credites :- @DARKLONX22 , @PROBOYX
+# Credites :- @DARKLONXOP22 , @PROBOYX
 # if you kang this please keep credits
 
 # SPECIES THANKS TEAMLEGEND
@@ -21,10 +21,10 @@ import io
 from platform import python_version, uname
 @bot.on(admin_cmd(pattern="wish ?(.*)"))
 async def LEGENDBOT(event):
-    DARKLONX = event.pattern_match.group(1)
+    DARKLONXOP = event.pattern_match.group(1)
     PROBOY = random.randint(0, 100)
-    if DARKLONX:
-        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{DARKLONX}`** ✨
+    if DARKLONXOP:
+        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{DARKLONXOP}`** ✨
               \n\n🔥𝙲𝙷𝙰𝙽𝙲𝙴 𝙾𝙵 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 : **{PROBOY}%**'''
     else:
         if event.is_reply:

@@ -18,7 +18,7 @@ from telethon import events
 from telethon.tl.types import MessageMediaPhoto
 
 
-path = "./DARKLONX/"
+path = "./DARKLONXOP/"
 if not os.path.isdir(path):
     os.makedirs(path)
 
