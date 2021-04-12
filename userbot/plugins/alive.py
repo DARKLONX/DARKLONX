@@ -1,10 +1,10 @@
-# COPYRIGHT (C) 2021 BY DARKLONX22 AND PROBOYX, ALAIN
+# COPYRIGHT (C) 2021 BY DARKLONX AND PROBOYX, ALAIN
 
 """
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
                  MADE BY DARKLONX AND PROBOY X
                    DISIGNED BY ALAIN_CHAMPION
                    CREDITS #TEAMDARKLONX 
@@ -33,7 +33,7 @@ async def awake(event):
 
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"DARKLONX")))
 async def callback_query_handler(event):
-# inline by DARKLONX22 and PROBOY22 🔥
+# inline by DARKLONX and PROBOY22 🔥
   PROBOYX = [[Button.url("REPO-DARKLONX", "https://github.com/DARKLONX/DARKLONX")]]
   PROBOYX +=[[Button.url("DEPLOY-DARKLONX", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONX%2Flegendpack&template=https%3A%2F%2Fgithub.com%2FDARKLONX%2Flegendpack")]]
   PROBOYX +=[[Button.url("TUTORIAL", "https://youtu.be/rGCSSFPsS4Q"), Button.url("STRING-SESSION", "https://repl.it/@DARKLONX/DARKLONX#main.py")]]
@@ -45,7 +45,7 @@ async def callback_query_handler(event):
 
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
-# inline by DARKLONX22 and PROBOY22 🔥
+# inline by DARKLONX and PROBOY22 🔥
   DARKLONX = f"ʜᴇʟʟᴏ ᴛʜɪs ɪs  {BOT}\n\n"
   DARKLONX += "ᴀʟʟ sʏsᴛᴇᴍ ɪs ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n\n"
   DARKLONX += f"{BOT} OS : {VERSION} ʟᴀsᴛᴇsᴛ\n\n"

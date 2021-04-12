@@ -1,11 +1,11 @@
-# COPYRIGHT (C) 2021 BY DARKLONX22
+# COPYRIGHT (C) 2021 BY DARKLONX
 """
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
 """
-# MADE BY DARKLONX22 🔥
+# MADE BY DARKLONX 🔥
 # MY IDEA H YRR DONT KANG THIS PLEASE
 import asyncio
 import os
@@ -17,7 +17,7 @@ except:
 
 import asyncio
 from userbot.utils import admin_cmd as legendx
-from userbot import bot as DARKLONX22
+from userbot import bot as DARKLONX
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
 from telethon import events, custom, Button, TelegramClient
@@ -29,7 +29,7 @@ pbot = Client("DARKLONX", api_id=API_ID, api_hash=API_HASH, bot_token=token)
 BOT = str(botnickname) if botnickname else "DARKLONX BOT"
 NAME = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
 PHOTO = os.environ.get("ALIVE_PHOTTO", None)
-DARKLONX = "[DARKLONX X](https://t.me/DARKLONX22)"
+DARKLONX = "[DARKLONX X](https://t.me/DARKLONX)"
 VERSION = "3.1.5"
 ID = 1100231654
 REPO = "[DARKLONX BOT](https://github.com/DARKLONX/DARKLONX)"

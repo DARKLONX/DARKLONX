@@ -1,5 +1,5 @@
 # made by @Alain_Champion and TEAMDARKLONX
-# Credites :- @DARKLONX22 , @PROBOYX
+# Credites :- @DARKLONX , @PROBOYX
 # if you kang this please keep credits
 
 # SPECIES THANKS TEAMDARKLONX

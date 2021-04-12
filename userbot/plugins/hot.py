@@ -1,5 +1,5 @@
 
-# credits DARKLONX22
+# credits DARKLONX
 
 from telethon import events
 import asyncio

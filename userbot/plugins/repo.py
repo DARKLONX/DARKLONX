@@ -1,12 +1,12 @@
-# COPYRIGHT © BY DARKLONX22
+# COPYRIGHT © BY DARKLONX
 
 """
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
 
-                 MADE BY DARKLONX22
+                 MADE BY DARKLONX
                  IDEA BY PROBOYX
                  CREDITS TEAMDARKLONX
                  PLEASE KEEP CREDITS 🥺
@@ -29,5 +29,5 @@ async def inline_id_handler(event: events.InlineQuery.Event):
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"obhai")))
 async def callback_query_handler(event):
 
-# inline by DARKLONX22 and PROBOYX 🔥
+# inline by DARKLONX and PROBOYX 🔥
   await event.edit(text=f"{BOT} REPO AND GROUP LINK",buttons=[[Button.url(f"🔥{BOT} REPO🔥", url="https://github.com/DARKLONX/DARKLONX"), Button.url(f"⚡{BOT} SUPPORT⚡", url="https://t.me/DARKLONX_USERBOT_SUPPORT")]])

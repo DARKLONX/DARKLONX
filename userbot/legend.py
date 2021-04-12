@@ -40,6 +40,6 @@ MASTER = f"[{NAME}](tg://user?id={X})"
 GROUP = "[SUPPORT GROUP](https://t.me/DARKLONX_USERBOT_SUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
-ALIVE = "DARKLONX BOT IS ON 🔥 FIRE 🔥" #make by DARKLONX22
+ALIVE = "DARKLONX BOT IS ON 🔥 FIRE 🔥" #make by DARKLONX
 OP = " HELLO MASTER MY NAME IS DARKLONX BOT I AM A BEST USERBOT 💝"
 EMOJI = "🔥"

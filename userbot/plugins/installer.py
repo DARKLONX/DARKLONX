@@ -1,5 +1,5 @@
 # maded by shivam
-# ported by DARKLONX22
+# ported by DARKLONX
 from userbot import bot, CMD_HELP, CMD_LIST
 from telethon import events
 from userbot.utils import remove_plugin, load_module, register

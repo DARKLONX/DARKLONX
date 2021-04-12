@@ -1,4 +1,4 @@
-#port to Legend Bot by@DARKLONX22
+#port to Legend Bot by@DARKLONX
 
 import datetime
 from telethon import events

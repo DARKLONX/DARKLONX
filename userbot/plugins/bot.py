@@ -1,4 +1,4 @@
-# make by @DARKLONX22
+# make by @DARKLONX
 # inline alive
 # modify by proboy22
 import asyncio

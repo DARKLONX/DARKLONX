@@ -1,4 +1,4 @@
-# Echo remastered by@DARKLONX22 for Hêllẞø†
+# Echo remastered by@DARKLONX for Hêllẞø†
 # Codes by @mrconfused 
 # Kang with credits
 

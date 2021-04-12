@@ -1,4 +1,4 @@
-#made by DARKLONX22
+#made by DARKLONX
 import asyncio
 import datetime
 from datetime import datetime

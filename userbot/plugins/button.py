@@ -1,10 +1,10 @@
-# COPYRIGHT (C) 2021-2022 © BY DARKLONX22 AND PROBOYX 🔥
+# COPYRIGHT (C) 2021-2022 © BY DARKLONX AND PROBOYX 🔥
 """
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX22)))))))))))))))))))))))))))
-               MADE BY DARKLONX22 AND PROBOYX
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+               MADE BY DARKLONX AND PROBOYX
                  CREDITS TEAMDARKLONX
                DONT REMOVE THIS LINES
 """
@@ -30,4 +30,4 @@ async def Buttons(event):
         await pro.forward_to(event.chat_id)
         await event.delete()
     except:
-        await event.edit("example:\n.button b<button name>|<link>\n`.button DARKLONX|https://t.me/DARKLONX22`\nmake sure your name and link no have Useless spece ", link_preview=False)
+        await event.edit("example:\n.button b<button name>|<link>\n`.button DARKLONX|https://t.me/DARKLONX`\nmake sure your name and link no have Useless spece ", link_preview=False)

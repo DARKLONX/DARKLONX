@@ -1,4 +1,4 @@
-# made by DARKLONX22
+# made by DARKLONX
 # kang with credits else gay
 
 

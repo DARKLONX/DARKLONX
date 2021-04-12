@@ -5,7 +5,7 @@
 """
 Userbot module to help you manage a group
 """
-#credits DARKLONX22
+#credits DARKLONX
 from asyncio import sleep
 from os import remove
 

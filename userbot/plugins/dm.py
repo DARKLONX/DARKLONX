@@ -1,4 +1,4 @@
-#make by DARKLONX22 for direct message
+#make by DARKLONX for direct message
 """
 Userbot module to help you dm msg
 """
