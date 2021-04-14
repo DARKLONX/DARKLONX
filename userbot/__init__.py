@@ -199,5 +199,5 @@ AFKREASON = None
 SUDO_LIST = {}
 
 
-from DARKLONX.helpers import *
-from DARKLONX.helpers import functions as legdef
+from LEGENDX.helpers import *
+from LEGENDX.helpers import functions as legdef
