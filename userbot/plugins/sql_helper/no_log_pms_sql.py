@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Numeric
-from DARKLONX.plugins.sql_helper import SESSION, BASE
+from LEGENDX.plugins.sql_helper import SESSION, BASE
 
 
 class NOLogPMs(BASE):

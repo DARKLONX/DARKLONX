@@ -1,4 +1,4 @@
-#made by DARKLONX creaor DARKLONX
+#made by LEGENDX creaor LEGENDX
 #kang with credits else gay aur maa chod dunga 
 
 
@@ -7,7 +7,7 @@ import urllib.request
 
 from uniborg.util import admin_cmd
 
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
 
 @borg.on(admin_cmd(pattern="ip (.*)"))

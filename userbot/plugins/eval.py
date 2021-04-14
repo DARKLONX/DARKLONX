@@ -10,7 +10,7 @@ import traceback
 import asyncio
 import sys
 import io
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 from uniborg.util import admin_cmd
 
 

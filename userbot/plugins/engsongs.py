@@ -16,7 +16,7 @@ import sys
 
 import random
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern=r"engsongs", outgoing=True))
 

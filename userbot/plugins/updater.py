@@ -1,6 +1,6 @@
-# make by DARKLONX 🔥🔥
-# MAKE BY DARKLONX X
-#make for DARKLONX BOT
+# make by LEGENDX 🔥🔥
+# MAKE BY LEGENDX X
+#make for LEGENDX BOT
 # KANG KRNA H TO CREDITS DEDENA 
 '''
 from datetime import datetime
@@ -9,8 +9,8 @@ from asyncio import sleep
 from os import execl
 import sys
 import os
-from DARKLONX import bot as javes
-from DARKLONX.utils import admin_cmd
+from LEGENDX import bot as javes
+from LEGENDX.utils import admin_cmd
 import io
 import heroku3
 import asyncio
@@ -19,7 +19,7 @@ from asyncio.subprocess import PIPE as asyncPIPE
 
 import sys
 import json
-from DARKLONX import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
+from LEGENDX import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from speedtest import Speedtest
 from telethon import functions
 from os import remove, execle, path, makedirs, getenv, environ
@@ -42,15 +42,15 @@ try:
    from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 except:
 	pass
-from DARKLONX import CMD_HELP, bot
-from DARKLONX import CMD_HELP, LOGS
+from LEGENDX import CMD_HELP, bot
+from LEGENDX import CMD_HELP, LOGS
 from asyncio import create_subprocess_shell as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from platform import python_version, uname
 from shutil import which
 from os import remove
 from telethon import version
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
 import heroku3
 import asyncio
@@ -58,7 +58,7 @@ import os
 import requests
 import math
 
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_APIKEY", None)
 HEROKU_APPNAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -67,9 +67,9 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 
 Heroku = heroku3.from_key(HEROKU_API_KEY)
-GIT_REPO_NAME = "DARKLONX"
+GIT_REPO_NAME = "LEGENDX"
 heroku_api = "https://api.heroku.com"
-UPSTREAM_REPO_URL="https://github.com/DARKLONX/DARKLONX"
+UPSTREAM_REPO_URL="https://github.com/LEGENDX/LEGENDX"
 
 # ================= CONSTANT =================
 JAVES_NNAME = str(HEROKU_APPNAME)
@@ -164,7 +164,7 @@ async def upstream(ups):
         if conf != "now":
             await ups.edit(
                 f"`Unfortunately, the directory {error} does not seem to be a git repository.\
-            \nBut we can fix that by force updating the DARKLONX using .update now.`"
+            \nBut we can fix that by force updating the LEGENDX using .update now.`"
             )
             return
         repo = Repo.init()
@@ -221,7 +221,7 @@ async def upstream(ups):
 
     if force_update:
         await ups.edit(
-            '`Force-Syncing to latest stable DARKLONX code, please wait...`')
+            '`Force-Syncing to latest stable LEGENDX code, please wait...`')
     else:
         await ups.edit('`Finiding your heroku app.....`')
     # We're in a Heroku Dyno, handle it's memez.
@@ -232,7 +232,7 @@ async def upstream(ups):
         heroku_applications = heroku.apps()
         if not HEROKU_APPNAME:
             await ups.edit(
-                '`Please set up the HEROKU_APPNAME variable to be able to update DARKLONX.`'
+                '`Please set up the HEROKU_APPNAME variable to be able to update LEGENDX.`'
             )
             repo.__del__()
             return
@@ -242,7 +242,7 @@ async def upstream(ups):
                 break
         if heroku_app is None:
             await ups.edit(
-                f'{txt}\n`Invalid Heroku credentials for updating DARKLONX dyno.`'
+                f'{txt}\n`Invalid Heroku credentials for updating LEGENDX dyno.`'
             )
             repo.__del__()
             return
@@ -276,13 +276,13 @@ async def upstream(ups):
         await ups.edit('`Successfully Updated!\n'
                        'restarting......`')
         # Spin a new instance of bot
-        args = [sys.executable, "-m", "DARKLONX"]
+        args = [sys.executable, "-m", "LEGENDX"]
         execle(sys.executable, *args, environ)
         return
 
 '''
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 @borg.on(admin_cmd(pattern="update|update now"))
 async def hehe (event):
   await event.edit("want to update your bot ?\nnow not use update now use \n`.restart` only")
-#maked by DARKLONX 🔥🔥🔥⚡⚡⚡⚡
+#maked by LEGENDX 🔥🔥🔥⚡⚡⚡⚡

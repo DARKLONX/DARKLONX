@@ -14,8 +14,8 @@ from requests import exceptions, get
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING

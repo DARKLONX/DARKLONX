@@ -11,8 +11,8 @@ import asyncio
 import time
 from datetime import datetime
 
-from DARKLONX.utils import admin_cmd, sudo_cmd , edit_or_reply
-from DARKLONX import CMD_HELP, bot
+from LEGENDX.utils import admin_cmd, sudo_cmd , edit_or_reply
+from LEGENDX import CMD_HELP, bot
 
 @borg.on(admin_cmd(pattern=r"open", outgoing=True))
 async def _(event):

@@ -1,7 +1,7 @@
 # HELLO THIS IS 1ST TUTORIAL
 
-# for DARKLONX
-from DARKLONX.utils import admin_cmd
+# for LEGENDX
+from LEGENDX.utils import admin_cmd
 import asyncio
 @borg.on(admin_cmd(pattern="hi"))
 async def legendx(event):
@@ -11,7 +11,7 @@ async def legendx(event):
   await asyncio.sleep(5)
   await bot.send_message(event.chat_id, "HELLO THIS IS ALSO RUNNING")
   await asyncio.sleep(5)
-  await bot.send_message("@DARKLONX", "HELLO VRO YOUR CODE IS WORKING")
+  await bot.send_message("@LEGENDX", "HELLO VRO YOUR CODE IS WORKING")
   await asyncio.sleep(5)
   await bot.send_message(1100231654, "ID TRICK ALSO WORKING")
  
@@ -25,15 +25,15 @@ async def legendx(event):
   await asyncio.sleep(5)
   await bot.send_message(event.chat_id, "HELLO THIS IS ALSO RUNNING")
   await asyncio.sleep(5)
-  await bot.send_message("@DARKLONX", "HELLO VRO YOUR CODE IS WORKING")
+  await bot.send_message("@LEGENDX", "HELLO VRO YOUR CODE IS WORKING")
   await asyncio.sleep(5)
   await bot.send_message(1100231654, "ID TRICK ALSO WORKING")
  
 
 # for grand official
 import asyncio
-from DARKLONX import telethn as bot 
-from DARKLONX.events import register
+from LEGENDX import telethn as bot 
+from LEGENDX.events import register
 @register(pattern="/hi")
 async def hehe(event):
 # bots cannot use event.edit method
@@ -42,6 +42,6 @@ async def hehe(event):
   await asyncio.sleep(5)
   await bot.send_message(event.chat_id, "HELLO THIS IS ALSO RUNNING")
   await asyncio.sleep(5)
-  await bot.send_message("@DARKLONX", "HELLO VRO YOUR CODE IS WORKING")
+  await bot.send_message("@LEGENDX", "HELLO VRO YOUR CODE IS WORKING")
   await asyncio.sleep(5)
   await bot.send_message(1100231654, "ID TRICK ALSO WORKING")

@@ -1,7 +1,7 @@
 
 
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import CMD_HELP, ALIVE_NAME
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP, ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -12,7 +12,7 @@ mention = f"[{DEFAULTUSER}](tg://user?id={USERID})"
 
 @bot.on(admin_cmd(pattern="carry (.*)"))
 @bot.on(sudo_cmd(pattern="carry (.*)", allow_sudo=True))
-async def DARKLONX(carry):
+async def LEGENDX(carry):
     name = carry.pattern_match.group(1)
     await edit_or_reply(
         carry,
@@ -22,7 +22,7 @@ async def DARKLONX(carry):
 
 @bot.on(admin_cmd(pattern="ded (.*)"))
 @bot.on(sudo_cmd(pattern="ded (.*)", allow_sudo=True))
-async def DARKLONX(ded):
+async def LEGENDX(ded):
     name = ded.pattern_match.group(1)
     await edit_or_reply(
         ded,
@@ -45,7 +45,7 @@ async def DARKLONX(ded):
 
 @bot.on(admin_cmd(pattern="killer (.*)"))
 @bot.on(sudo_cmd(pattern="killer (.*)", allow_sudo=True))
-async def DARKLONX(killer):
+async def LEGENDX(killer):
     name = killer.pattern_match.group(1)
     await edit_or_reply(
         killer,
@@ -75,7 +75,7 @@ A = (
 
 @bot.on(admin_cmd(pattern="sthink (.*)"))
 @bot.on(sudo_cmd(pattern="sthink (.*)", allow_sudo=True))
-async def DARKLONX(think):
+async def LEGENDX(think):
     name = think.pattern_match.group(1)
     B = (
         f"**{mention} ~> {name} .\n\n**"
@@ -100,7 +100,7 @@ async def DARKLONX(think):
 
 @bot.on(admin_cmd(pattern="sfrog (.*)"))
 @bot.on(sudo_cmd(pattern="sfrog (.*)", allow_sudo=True))
-async def DARKLONX(frogsay):
+async def LEGENDX(frogsay):
     name = frogsay.pattern_match.group(1)
     C = (
         f"**{mention} ~> {name} .\n\n**"
@@ -125,7 +125,7 @@ async def DARKLONX(frogsay):
 
 @bot.on(admin_cmd(pattern="sdead (.*)"))
 @bot.on(sudo_cmd(pattern="sdead (.*)", allow_sudo=True))
-async def DARKLONX(deadfrog):
+async def LEGENDX(deadfrog):
     name = deadfrog.pattern_match.group(1)
     D = (
         f"**{mention} ~> {name} .\n\n**"
@@ -150,7 +150,7 @@ async def DARKLONX(deadfrog):
 
 @bot.on(admin_cmd(pattern="strump (.*)"))
 @bot.on(sudo_cmd(pattern="strump (.*)", allow_sudo=True))
-async def DARKLONX(trumpsay):
+async def LEGENDX(trumpsay):
     name = trumpsay.pattern_match.group(1)
     E = (
         f"**Donald Trump ~> {name} .\n\n**"
@@ -175,7 +175,7 @@ async def DARKLONX(trumpsay):
 
 @bot.on(admin_cmd(pattern="schina (.*)"))
 @bot.on(sudo_cmd(pattern="schina (.*)", allow_sudo=True))
-async def DARKLONX(ckmkb):
+async def LEGENDX(ckmkb):
     name = ckmkb.pattern_match.group(1)
     F = (
         f"**🅲🅺🅼🅺🅱 ~> {name} .\n\n**"
@@ -201,7 +201,7 @@ async def DARKLONX(ckmkb):
 
 @bot.on(admin_cmd(pattern=r"sshit$"))
 @bot.on(sudo_cmd(pattern="sshit$", allow_sudo=True))
-async def DARKLONX(shit):
+async def LEGENDX(shit):
     await edit_or_reply(shit, A)
 
 

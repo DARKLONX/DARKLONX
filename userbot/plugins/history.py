@@ -5,8 +5,8 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 import asyncio
 
 @bot.on(admin_cmd(pattern=("history ?(.*)")))

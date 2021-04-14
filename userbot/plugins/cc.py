@@ -1,12 +1,12 @@
-# Ported by DARKLONX
+# Ported by LEGENDX
 # Original By 
 # @THE_B_LACK_HAT
 # @danish_00
 # Card Generator
 ##############################
 from faker import Faker as dc
-from DARKLONX.utils import admin_cmd as hehe
-from DARKLONX import bot as cobra
+from LEGENDX.utils import admin_cmd as hehe
+from LEGENDX import bot as cobra
 @cobra.on(hehe("cc"))
 async def _cobra(dark):
     cyber = dc()

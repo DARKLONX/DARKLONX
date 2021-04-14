@@ -8,7 +8,7 @@ from telethon import events, functions, __version__
 
 import asyncio
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd("(.*)"))
 
@@ -44,4 +44,4 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("""Telethon UserBot powered by @DARKLONX_USERBOT_SUPPORT""")
+    await event.edit("""Telethon UserBot powered by @LEGENDX_USERBOT_SUPPORT""")

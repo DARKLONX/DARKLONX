@@ -1,8 +1,8 @@
 import asyncio
 from collections import deque
 
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import ALIVE_NAME, CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -42,7 +42,7 @@ async def _(event):
     animation_ttl = range(12)
     event = await edit_or_reply(event, "`Deploying...`")
     animation_chars = [
-     "**Heroku Connecting To Latest [Github Build](HellBoy-OP/DARKLONXBOT)**",
+     "**Heroku Connecting To Latest [Github Build](HellBoy-OP/LEGENDXBOT)**",
             f"**Build started by user** {DEFAULTUSER}",
             f"**Deploy** `535a74f0` **by user** **{DEFAULTUSER}**",
             "**Restarting Heroku Server...**",

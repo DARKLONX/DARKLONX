@@ -16,13 +16,13 @@ import shutil
 import subprocess
 import time
 from pySmartDL import SmartDL
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.uniborgConfig import Config
 from telethon import events
-from DARKLONX.utils import admin_cmd, humanbytes, progress, time_formatter
+from LEGENDX.utils import admin_cmd, humanbytes, progress, time_formatter
 import subprocess
 import patoolib
 import tarfile
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
 extracted = Config.TMP_DOWNLOAD_DIRECTORY + "extracted/"
@@ -58,7 +58,7 @@ async def _(event):
     await borg.send_file(
         event.chat_id,
         directory_name + ".zip",
-        caption="Zipped By DARKLONXBOT",
+        caption="Zipped By LEGENDXBOT",
         force_document=True,
         allow_cache=False,
         reply_to=event.message.id,
@@ -102,7 +102,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 directory_name + ".rar",
-                caption="rarred By DARKLONXBOT",
+                caption="rarred By LEGENDXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,
@@ -152,7 +152,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 directory_name + ".7z",
-                caption="7z archived By DARKLONXBOT",
+                caption="7z archived By LEGENDXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,
@@ -206,7 +206,7 @@ async def _(event):
             await borg.send_file(
                 event.chat_id,
                 output,
-                caption="TAR By DARKLONXBOT",
+                caption="TAR By LEGENDXBOT",
                 force_document=True,
                 allow_cache=False,
                 reply_to=event.message.id,

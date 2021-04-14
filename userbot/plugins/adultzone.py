@@ -1,9 +1,9 @@
 #credits to userge
-#ported to DARKLONXBOT by @DARKLONX
+#ported to LEGENDXBOT by @LEGENDX
 #will be adding more soon
 
 import os, urllib, requests, asyncio
-from DARKLONX.utils import admin_cmd,edit_or_reply, sudo_cmd
+from LEGENDX.utils import admin_cmd,edit_or_reply, sudo_cmd
 
 @bot.on(admin_cmd("boobs$"))
 @bot.on(sudo_cmd(pattern="boobs$", allow_sudo=True))

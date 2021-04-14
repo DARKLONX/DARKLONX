@@ -1,12 +1,12 @@
-#make by DARKLONX for direct message
+#make by LEGENDX for direct message
 """
 Userbot module to help you dm msg
 """
 
 from telethon import *
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 
 # Fixed by LEGDND X

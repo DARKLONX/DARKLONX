@@ -1,6 +1,6 @@
 #    Copyright (C) 2020 KeinShin
 
-######### maked by DARKLONX 🔥🔥🔥###################
+######### maked by LEGENDX 🔥🔥🔥###################
 
 #    This program is free software: you can redistribute it and/or modify
 
@@ -8,7 +8,7 @@
 
 #    the Free Software Foundation, either version 3 of the License, or
 
-#    maked by DARKLONX X by shivam help thanks keinshin
+#    maked by LEGENDX X by shivam help thanks keinshin
 
 #    This program is distributed in the hope that it will be useful,
 
@@ -37,7 +37,7 @@ Midhun_xD
 
 @Shivam_Patel
 
-@DARKLONX
+@LEGENDX
 
 """
 
@@ -45,7 +45,7 @@ Midhun_xD
 
 
 
-"""Only DARKLONX BOT and DC (Can Use Without Credits) Can Use This Inline WithOut Copyright (Just Give The Credits Pls)
+"""Only LEGENDX BOT and DC (Can Use Without Credits) Can Use This Inline WithOut Copyright (Just Give The Credits Pls)
 
 Thanks"""
 
@@ -67,7 +67,7 @@ import json
 
 from math import ceil
 
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.uniborgConfig import Config
 
 
 
@@ -75,7 +75,7 @@ from telethon import Button, custom, events, functions
 
 
 
-from DARKLONX import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
+from LEGENDX import ALIVE_NAME, CMD_HELP, CMD_LIST, bot
 
 
 
@@ -101,7 +101,7 @@ from pathlib import Path
 
 
 
-from DARKLONX.utils import load_module, remove_plugin,admin_cmd as lightning_cmd
+from LEGENDX.utils import load_module, remove_plugin,admin_cmd as lightning_cmd
 
 
 
@@ -115,7 +115,7 @@ thumb_image_path = "./resources/541200.png"
 
 
 
-LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 
 LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
@@ -129,14 +129,14 @@ LIGHTNINGBOT = Var.TG_BOT_TOKEN_BF_HER
 
  
 
-from DARKLONX import ID
+from LEGENDX import ID
 from telethon import events
 
 BOT_MSG = os.environ.get("BOT_MSG", None)
 
 if BOT_MSG is None:
 
-    BOT_LIT = f"Hello Sir MySelf DARKLONX BOT Here For  {LIGHTNINGUSER}'s Protection "
+    BOT_LIT = f"Hello Sir MySelf LEGENDX BOT Here For  {LIGHTNINGUSER}'s Protection "
 
 else:
 
@@ -195,7 +195,7 @@ else:
 
 
 
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
 @tgbot.on(events.InlineQuery)
 
@@ -943,7 +943,7 @@ async def ho(event):
 
     buttons = lightnings_menu_for_help(0, CMD_LIST, "helpmepro")
 
-    ho = f"""DARKLONXBOT Is Here With Stunning Help !\n
+    ho = f"""LEGENDXBOT Is Here With Stunning Help !\n
 
 In Case Any Problem @teamishere \nTottal Plugs( 🧐): {len(CMD_LIST)}"""
 

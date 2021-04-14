@@ -8,7 +8,7 @@
 import time
 
 from telethon.errors import rpcbaseerrors
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 import importlib.util
 
 

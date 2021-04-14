@@ -1,10 +1,10 @@
 # Coded by @CyberBoyAyush
-# For DARKLONXBOT : https://github.com/DARKLONX/DARKLONX
+# For LEGENDXBOT : https://github.com/LEGENDX/LEGENDX
 
 
 from telethon import events
 import asyncio
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd("inflag"))
 async def _(event):

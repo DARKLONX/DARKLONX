@@ -29,8 +29,8 @@ from PIL import Image, ImageEnhance, ImageOps
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.types import DocumentAttributeFilename
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="frybot$"))

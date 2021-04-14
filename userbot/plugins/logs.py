@@ -23,7 +23,7 @@ from telethon import Button, custom, events, functions
 import math
 import heroku3
 
-from DARKLONX import HEROKU_APP_NAME, HEROKU_API_KEY
+from LEGENDX import HEROKU_APP_NAME, HEROKU_API_KEY
 
 heroku = heroku3.from_key(HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
@@ -47,6 +47,6 @@ async def inline_id_handler(event: events.InlineQuery.Event):
             await event.answer([shivamlog])
             return os.remove('logs.txt')
     if not event.query.user_id == me.id:
-        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/DARKLONX/DARKLONX ",buttons=[[Button.switch_inline("Search Again", query="logs", same_peer=True)],], )
+        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/LEGENDX/LEGENDX ",buttons=[[Button.switch_inline("Search Again", query="logs", same_peer=True)],], )
         await event.answer([resultm])
         return

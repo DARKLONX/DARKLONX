@@ -7,12 +7,12 @@
 
 import re
 import random
-from DARKLONX import bot, CMD_HELP
+from LEGENDX import bot, CMD_HELP
 import asyncio
 import os
 from pathlib import Path
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONX.utils import admin_cmd, edit_or_reply
+from LEGENDX.utils import admin_cmd, edit_or_reply
 
 
 IF_EMOJI = re.compile(

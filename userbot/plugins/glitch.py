@@ -5,15 +5,15 @@ ported to telethon by @mrconfused and @sandy1709
 import asyncio
 import shlex
 from PIL import Image 
-from DARKLONX import LOGS , CMD_HELP
+from LEGENDX import LOGS , CMD_HELP
 from telethon import functions, types
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from glitch_this import ImageGlitcher
 from typing import Optional, Tuple
 
 
-from DARKLONX import bot, CMD_HELP, LOGS
-from DARKLONX.events import register
+from LEGENDX import bot, CMD_HELP, LOGS
+from LEGENDX.events import register
 
 async def take_screen_shot(
     video_file: str, duration: int, path: str = ""

@@ -1,10 +1,10 @@
 import asyncio
 from datetime import datetime
-from DARKLONX import BOT
+from LEGENDX import BOT
 from .. import ALIVE_NAME, CMD_HELP
 from ..utils import admin_cmd, edit_or_reply, sudo_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 
 
 @borg.on(admin_cmd(pattern=f"hbping$", outgoing=True))

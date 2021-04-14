@@ -9,7 +9,7 @@ import requests
 
 from telethon import events
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 

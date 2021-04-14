@@ -2,7 +2,7 @@
 Syntax: .id"""
 from telethon import events
 from telethon.utils import pack_bot_file_id
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd("id"))

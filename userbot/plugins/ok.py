@@ -8,7 +8,7 @@ from telethon import events
 
 import asyncio
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd("ok"))
 async def _(event):

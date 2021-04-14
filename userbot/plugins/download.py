@@ -9,8 +9,8 @@ from datetime import datetime
 
 from pySmartDL import SmartDL
 
-from DARKLONX.utils import admin_cmd, sudo_cmd, humanbytes, progress
-from DARKLONX import ALIVE_NAME, CMD_HELP
+from LEGENDX.utils import admin_cmd, sudo_cmd, humanbytes, progress
+from LEGENDX import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

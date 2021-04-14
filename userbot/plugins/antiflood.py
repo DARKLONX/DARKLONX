@@ -3,9 +3,9 @@
 import asyncio
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
-import DARKLONX.plugins.sql_helper.antiflood_sql as sql
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+import LEGENDX.plugins.sql_helper.antiflood_sql as sql
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood

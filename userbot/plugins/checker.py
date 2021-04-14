@@ -1,10 +1,10 @@
-#codes by DARKLONX best codes by DARKLONX X
+#codes by LEGENDX best codes by LEGENDX X
 #kang keep credits
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DARKLONX import ALIVE_NAME
-from DARKLONX.utils import admin_cmd
+from LEGENDX import ALIVE_NAME
+from LEGENDX.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 
@@ -48,7 +48,7 @@ async def _(event):
                 await event.delete()
             except YouBlockedUserError:
                 await event.edit("Error: unblock @Carol5_bot `and try again!")
-#made by DARKLONX
+#made by LEGENDX
 @borg.on(admin_cmd("ch ?(.*)"))
 async def _(event):
     if event.fwd_from:

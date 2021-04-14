@@ -1,5 +1,5 @@
 import pyfiglet
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 #@command(pattern="^.figlet ?(.*)", outgoing=True)
 @borg.on(admin_cmd(pattern=r"figlet ?(.*)"))

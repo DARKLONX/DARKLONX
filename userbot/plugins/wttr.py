@@ -14,7 +14,7 @@ import time
 
 from datetime import tzinfo, datetime
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 

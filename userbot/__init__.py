@@ -4,8 +4,8 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from DARKLONX.helpers import functions as simpdef
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.helpers import functions as simpdef
+from LEGENDX.uniborgConfig import Config
 from var import Var
 darklonversion = "3.0"
 StartTime = time.time()
@@ -30,7 +30,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-DARKLONX_ID = ["1100231654"]
+LEGENDX_ID = ["1100231654"]
 
 """ PPE initialization. """
 
@@ -109,7 +109,7 @@ if bool(ENV):
     # FedBan Premium Module
     F_BAN_LOGGER_GROUP = os.environ.get("F_BAN_LOGGER_GROUP", None)
 
-    #make by DARKLONX X 
+    #make by LEGENDX X 
     botnickname = os.environ.get("BOT_NICK_NAME", None)
 
 # Heroku Credentials for updater.
@@ -141,7 +141,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/DARKLONX/DARKLONX.git")
+    "https://github.com/LEGENDX/LEGENDX.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -199,5 +199,5 @@ AFKREASON = None
 SUDO_LIST = {}
 
 
-from DARKLONX.helpers import *
-from DARKLONX.helpers import functions as legdef
+from LEGENDX.helpers import *
+from LEGENDX.helpers import functions as legdef

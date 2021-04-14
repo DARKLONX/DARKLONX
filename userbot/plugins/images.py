@@ -3,11 +3,11 @@ Syntax: `.img <Name>` or `.img (replied message)`
 \n Upgraded and Google Image Error Fixed
 """
 
-from DARKLONX.google_imgs import googleimagesdownload
+from LEGENDX.google_imgs import googleimagesdownload
 import os
 import shutil
 from re import findall
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="img ?(.*)"))

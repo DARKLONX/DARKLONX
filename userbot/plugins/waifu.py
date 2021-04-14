@@ -10,8 +10,8 @@ KEEP CREDITS
 import random
 import re
 
-from DARKLONX import CMD_HELP, bot
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP, bot
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(
     "["

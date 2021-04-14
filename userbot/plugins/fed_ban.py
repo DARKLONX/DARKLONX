@@ -1,18 +1,18 @@
-# MADE BY DARKLONX AND PROBOYX
+# MADE BY LEGENDX AND PROBOYX
 #CREDITS TELEBOT
 # KEEP CREDITS PLEASE 🥺
 import asyncio
-from DARKLONX import NAME
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
-# By (@proboy22), and (@DARKLONX)
-from DARKLONX import bot
+from LEGENDX import NAME
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+# By (@proboy22), and (@LEGENDX)
+from LEGENDX import bot
 PRO = NAME
 @bot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**STARTING DARKLONXS BAN BY {PRO}**...")
+    await event.edit(f"**STARTING LEGENDXS BAN BY {PRO}**...")
     fedList = []
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
@@ -34,12 +34,12 @@ async def _(event):
                 REASON = arg[2]
             else:
                 FBAN = arg[1]
-                REASON = " #DARKLONXS FBANNED🔥 "
+                REASON = " #LEGENDXS FBANNED🔥 "
         else:
             FBAN = previous_message.sender_id
             REASON = event.text.split(" ", maxsplit=1)[1]
             if REASON.strip() == "":
-                REASON = " #DARKLONXS FBANNED 🔥"
+                REASON = " #LEGENDXS FBANNED 🔥"
     else:
         arg = event.text.split(" ", maxsplit=2)
         if len(arg) > 2:
@@ -47,14 +47,14 @@ async def _(event):
             REASON = arg[2]
         else:
             FBAN = arg[1]
-            REASON = " #DARKLONXS FBANNED 🔥 "
+            REASON = " #LEGENDXS FBANNED 🔥 "
     try:
         int(FBAN)
         if int(FBAN) == 1281934570 or int(FBAN) == 1100231654:
             await event.edit("BHAAG BETICHOD APNE BAAP KO FBAN DEGA")
             return
     except BaseException:
-        if FBAN == "@PROBOYX" or FBAN == "@DARKLONX":
+        if FBAN == "@PROBOYX" or FBAN == "@LEGENDX":
             await event.edit("NIKAL LAWDE TUJHE HI SUPER FBAN KRRAHAHU.")
             return
     if Config.FBAN_GROUP_ID:
@@ -136,7 +136,7 @@ async def _(event):
         await bot.send_message(chat, f"/fban {FBAN} {REASON}")
         await asyncio.sleep(3)
     await event.edit(
-        f"SuperFBan Completed. Affected {len(fedList) - exCount} feds.\n#DARKLONX BOT"
+        f"SuperFBan Completed. Affected {len(fedList) - exCount} feds.\n#LEGENDX BOT"
     )
 
 
@@ -148,7 +148,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**STARTING DARKLONXS UNFBANNING BY {PRO}**...")
+    await event.edit(f"**STARTING LEGENDXS UNFBANNING BY {PRO}**...")
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         FBAN = previous_message.sender_id
@@ -214,10 +214,10 @@ async def _(event):
         await asyncio.sleep(5)
         await bot.send_message(chat, f"/unfban {FBAN}")
         await asyncio.sleep(5)
-    await event.edit(f"SuperUnFBan Completed. Affected {len(fedList)} Feds by {PRO}.\n#DARKLONXBOT")
+    await event.edit(f"SuperUnFBan Completed. Affected {len(fedList)} Feds by {PRO}.\n#LEGENDXBOT")
 
 
-# By TEAMDARKLONX
+# By TEAMLEGENDX
 # OWNED BY TELEBOT
 
 CMD_HELP.update(
@@ -226,6 +226,6 @@ CMD_HELP.update(
         \n**Usage**: Mass-Ban in all feds you are admin in.\
         \nSet `EXCLUDE_FED fedid1|fedid2` in heroku vars to exclude those feds.\
         \nSet var `FBAN_GROUP_ID` to the group with rose, where you want FBan to take place.\
-        \n\nGet help - @DARKLONX OR @PROBOYX."
+        \n\nGet help - @LEGENDX OR @PROBOYX."
     }
 )

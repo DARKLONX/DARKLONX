@@ -1,4 +1,4 @@
-# gali plugin By DARKLONXBOT
+# gali plugin By LEGENDXBOT
 """Emoji
 Available Commands:
 .bsdk"""
@@ -7,8 +7,8 @@ from telethon import events
 
 import asyncio
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd("bsdk"))
 async def _(event):

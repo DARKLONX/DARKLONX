@@ -6,8 +6,8 @@ Syntax: .ud Query"""
 import asyncurban
 from PyDictionary import PyDictionary
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="ud (.*)"))

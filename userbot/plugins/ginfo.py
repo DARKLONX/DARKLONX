@@ -1,62 +1,62 @@
 """
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
 
 
-                  made by @DARKLONX
-                  credits TEAMDARKLONX
+                  made by @LEGENDX
+                  credits TEAMLEGENDX
                   idea by @Alain_Champion 
- ((((((((((((((((((((((((( @DARKLONX AND @PROBOYX)))))))))))))))))))))))))))
+ ((((((((((((((((((((((((( @LEGENDX AND @PROBOYX)))))))))))))))))))))))))))
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
-from DARKLONX import MASTER
-DARKLONX = MASTER
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import MASTER
+LEGENDX = MASTER
 PROBOY = "@tgscanrobot"
-# MADE BY DARKLONX 🔥🔥
+# MADE BY LEGENDX 🔥🔥
 
 @borg.on(admin_cmd("ginfo ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    DARKLONX = event.pattern_match.group(1)
-    if "@" in DARKLONX:
+    LEGENDX = event.pattern_match.group(1)
+    if "@" in LEGENDX:
         async with borg.conversation(PROBOY) as conv:
             try:
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}")
+                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGENDX}")
                 await conv.send_message("/start")
-                await conv.get_response() #made by DARKLONX
-                await conv.send_message(f"{DARKLONX}")
+                await conv.get_response() #made by LEGENDX
+                await conv.send_message(f"{LEGENDX}")
                 TEAMX = await conv.get_response()
                 await borg.send_message(event.chat_id, TEAMX.text)
-                await event.delete() #made by DARKLONX
+                await event.delete() #made by LEGENDX
             except YouBlockedUserError:
                 await event.edit("Error: @tgscanrobot unblock and retry!")
-    elif DARKLONX == "":
+    elif LEGENDX == "":
         OP = await event.get_reply_message()
         PRO = OP.sender.id 
         async with borg.conversation(PROBOY) as conv:
-            try: #made by DARKLONX 🔥
-              #made by DARKLONX 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}")
+            try: #made by LEGENDX 🔥
+              #made by LEGENDX 
+                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGENDX}")
                 await conv.send_message("/start")
-                await conv.get_response() #made by DARKLONX
+                await conv.get_response() #made by LEGENDX
                 await conv.send_message(f"{PRO}")
                 TEAMX = await conv.get_response()
                 await borg.send_message(event.chat_id, TEAMX.text)
                 await event.delete()
-            except YouBlockedUserError: #made by DARKLONX
+            except YouBlockedUserError: #made by LEGENDX
                 await event.edit("Error: unblock @tgscanrobot and try again!")
     else:
         async with borg.conversation(PROBOY) as conv:
-            try: #made by DARKLONX 🔥
+            try: #made by LEGENDX 🔥
                 
-                await event.edit(f"THIS USER DETAILS CHECKING BY {DARKLONX}") 
+                await event.edit(f"THIS USER DETAILS CHECKING BY {LEGENDX}") 
                 await conv.send_message("/start")
                 await conv.get_response()
                 await conv.send_message(f"{PRO}")

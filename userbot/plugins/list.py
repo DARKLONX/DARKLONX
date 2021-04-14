@@ -1,4 +1,4 @@
-# made by DARKLONX
+# made by LEGENDX
 # kang with credits else gay
 
 
@@ -9,9 +9,9 @@ import os.path
 import time
 from os.path import exists, isdir
 
-from DARKLONX import CMD_HELP
-from DARKLONX.events import register
-from DARKLONX.utils import humanbytes
+from LEGENDX import CMD_HELP
+from LEGENDX.events import register
+from LEGENDX.utils import humanbytes
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 
@@ -114,7 +114,7 @@ CMD_HELP.update(
     {
         "list": "**Plugin : **`list`\
     \n\n**Syntax : **`.ls`\
-    \n**Function : **this plugin give you your full files from DARKLONX"
+    \n**Function : **this plugin give you your full files from LEGENDX"
     }
 )
 

@@ -1,13 +1,13 @@
 #Credits to @spechide and his team for @TROLLVOICEBOT
-#made by @DARKLONX from the snippets of waifu AKA stickerizerbot....
+#made by @LEGENDX from the snippets of waifu AKA stickerizerbot....
 #kang karega kya madarchod?
 #aukaat h bsdk teri...jake baap ka loda chus ke aa....
 
 
 import re
 import random
-from DARKLONX import bot
-from DARKLONX.utils import admin_cmd
+from LEGENDX import bot
+from LEGENDX.utils import admin_cmd
 
 
 IF_EMOJI = re.compile(
@@ -48,25 +48,25 @@ def deEmojify(inputString: str) -> str:
 
 
 @borg.on(admin_cmd(pattern="mev(?: |$)(.*)"))
-async def nope(DARKLONX):
-    hell = DARKLONX.pattern_match.group(1)
+async def nope(LEGENDX):
+    hell = LEGENDX.pattern_match.group(1)
     if not hell:
-        if DARKLONX.is_reply:
-            what = (await DARKLONX.get_reply_message()).message
+        if LEGENDX.is_reply:
+            what = (await LEGENDX.get_reply_message()).message
         else:
-            await DARKLONX.edit("`Sir please give some query to search and download it for you..!`")
+            await LEGENDX.edit("`Sir please give some query to search and download it for you..!`")
             return
 
     troll = await bot.inline_query(
 
         "TrollVoiceBot", f"{(deEmojify(hell))}")
 
-    await troll[0].click(DARKLONX.chat_id,
+    await troll[0].click(LEGENDX.chat_id,
 
-                            reply_to=DARKLONX.reply_to_msg_id,
+                            reply_to=LEGENDX.reply_to_msg_id,
 
-                            silent=True if DARKLONX.is_reply else False,
+                            silent=True if LEGENDX.is_reply else False,
 
                             hide_via=True)
 
-    await DARKLONX.delete()
+    await LEGENDX.delete()

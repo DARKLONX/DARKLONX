@@ -1,12 +1,12 @@
-from DARKLONX import bot
+from LEGENDX import bot
 from sys import argv
 import sys
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient
 from var import Var
-from DARKLONX.utils import load_module
-from DARKLONX import LOAD_PLUG, BOTLOG_CHATID, LOGS
+from LEGENDX.utils import load_module
+from LEGENDX import LOAD_PLUG, BOTLOG_CHATID, LOGS
 from pathlib import Path
 import asyncio
 import telethon.utils
@@ -39,7 +39,7 @@ else:
     
 
 import glob
-path = 'DARKLONX/plugins/*.py'
+path = 'LEGENDX/plugins/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -47,9 +47,9 @@ for name in files:
         shortname = path1.stem
         load_module(shortname.replace(".py", ""))
 
-import DARKLONX._core
+import LEGENDX._core
 
-print("DARKLONX BOT is on fire 🔥🔥🔥 all files installed on your bot.... Join @teamishere for any help..")
+print("LEGENDX BOT is on fire 🔥🔥🔥 all files installed on your bot.... Join @teamishere for any help..")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()

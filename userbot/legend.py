@@ -2,9 +2,9 @@
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from DARKLONX import ALIVE_NAME, StartTime
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot
+from LEGENDX import ALIVE_NAME, StartTime
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot
 from telethon import version
 from math import ceil
 import json
@@ -12,14 +12,14 @@ import random
 import re
 from telethon import events, errors, custom
 import io
-from DARKLONX.helpers.functions import get_readable_time
+from LEGENDX.helpers.functions import get_readable_time
 import time
 import os
 import datetime
 #importing finished
-from DARKLONX import botnickname 
-BOT = str(botnickname) if botnickname else "DARKLONX BOT"
-NAME = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+from LEGENDX import botnickname 
+BOT = str(botnickname) if botnickname else "LEGENDX BOT"
+NAME = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 tim = get_readable_time((time.time() - StartTime))
 #pic 👇
 PIC = os.environ.get("ALIVE_PIC")
@@ -28,18 +28,18 @@ uptime = tim
 #time = date + time okay
 TIME = time.asctime(time.localtime())
 #my name 👇
-DARKLONX = "[DARKLONX X](https://t.me/darklonx22)"
+LEGENDX = "[LEGENDX X](https://t.me/darklonx22)"
 #my bots repo 👇
-REPO = "[DARKLONX BOT](https://github.com/DARKLONX/DARKLONX)"
+REPO = "[LEGENDX BOT](https://github.com/LEGENDX/LEGENDX)"
 #grpup👇NAME = "[{MAATER}](tg://user?id={X})"
 #yrr isko apne bot me aply krne se pehle mere se pooch lena ok
 #aur aage add kruga abhi busy okay 🤔
 global ghanti
 X = bot.uid
 MASTER = f"[{NAME}](tg://user?id={X})"
-GROUP = "[SUPPORT GROUP](https://t.me/DARKLONX_USERBOT_SUPPORT)"
+GROUP = "[SUPPORT GROUP](https://t.me/LEGENDX_USERBOT_SUPPORT)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
-ALIVE = "DARKLONX BOT IS ON 🔥 FIRE 🔥" #make by DARKLONX
-OP = " HELLO MASTER MY NAME IS DARKLONX BOT I AM A BEST USERBOT 💝"
+ALIVE = "LEGENDX BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX
+OP = " HELLO MASTER MY NAME IS LEGENDX BOT I AM A BEST USERBOT 💝"
 EMOJI = "🔥"

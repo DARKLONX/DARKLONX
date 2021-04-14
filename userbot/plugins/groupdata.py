@@ -16,8 +16,8 @@ from telethon.errors.rpcerrorlist import (UserIdInvalidError,
 from telethon.errors import (BadRequestError, ChatAdminRequiredError,
                              ImageProcessFailedError, PhotoCropSizeSmallError,
                              UserAdminInvalidError)
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import  errors_handler, admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import  errors_handler, admin_cmd
 
 @borg.on(admin_cmd(pattern="leave$"))
 async def leave(e):

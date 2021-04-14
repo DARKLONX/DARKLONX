@@ -1,17 +1,17 @@
 {
-  "name": "DARKLONX",
+  "name": "LEGENDX",
   "description": "THE SUPER USERBOT MADED BY TEAM DARKLON AND TEAM ULTRA AND LEGEND ",
   "logo": "https://telegra.ph/file/fff3f63dd795411428c7e.jpg",
     "keywords": [
     "telegram",
-    "DARKLONX",
+    "LEGENDX",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DARKLONX/HEROKU/",
-  "website": "https://github.com/DARKLONX/HEROKU/",
-  "success_url": "https://t.me/DARKLONXCHAT",
+  "repository": "https://github.com/LEGENDX/HEROKU/",
+  "website": "https://github.com/LEGENDX/HEROKU/",
+  "success_url": "https://t.me/LEGENDXCHAT",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -19,7 +19,7 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./DARKLONX/DOWNLOADS/",
+      "value": "./LEGENDX/DOWNLOADS/",
       "required": false
     },
     "F_BAN_LOGGER_GROUP": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @DARKLONX22.",
+      "description": "Fill your Full name or Username like @LEGENDX22.",
       "value": "",
       "required": false
     },

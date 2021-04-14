@@ -1,4 +1,4 @@
-# Echo remastered by@DARKLONX for Hêllẞø†
+# Echo remastered by@LEGENDX for Hêllẞø†
 # Codes by @mrconfused 
 # Kang with credits
 
@@ -7,9 +7,9 @@ import base64
 import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX.plugins.sql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX.plugins.sql_helper.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 
 
 @bot.on(admin_cmd(pattern="echo$"))
@@ -22,9 +22,9 @@ async def echo(hell):
         user_id = reply_msg.sender_id
         chat_id = hell.chat_id
         try:
-            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            DARKLONX = Get(DARKLONX)
-            await hell.client(DARKLONX)
+            LEGENDX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            LEGENDX = Get(LEGENDX)
+            await hell.client(LEGENDX)
         except BaseException:
             pass
         if is_echo(user_id, chat_id):
@@ -47,9 +47,9 @@ async def echo(hell):
         user_id = reply_msg.sender_id
         chat_id = hell.chat_id
         try:
-            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            DARKLONX = Get(DARKLONX)
-            await hell.client(DARKLONX)
+            LEGENDX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            LEGENDX = Get(LEGENDX)
+            await hell.client(LEGENDX)
         except BaseException:
             pass
         if is_echo(user_id, chat_id):
@@ -98,9 +98,9 @@ async def samereply(hell):
     if is_echo(hell.sender_id, hell.chat_id):
         await asyncio.sleep(2)
         try:
-            DARKLONX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
-            DARKLONX = Get(DARKLONX)
-            await hell.client(DARKLONX)
+            LEGENDX = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
+            LEGENDX = Get(LEGENDX)
+            await hell.client(LEGENDX)
         except BaseException:
             pass
         if hell.message.text or hell.message.sticker:

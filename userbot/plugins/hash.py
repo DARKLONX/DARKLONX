@@ -8,8 +8,8 @@
 from subprocess import PIPE
 from subprocess import run as runapp
 import pybase64
-from DARKLONX import CMD_HELP
-from DARKLONX.events import register, errors_handler
+from LEGENDX import CMD_HELP
+from LEGENDX.events import register, errors_handler
 
 
 @register(outgoing=True, pattern="^.hash (.*)")

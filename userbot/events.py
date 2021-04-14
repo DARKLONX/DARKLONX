@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for managing events.
- One of the main components of the DARKLONX. """
+ One of the main components of the LEGENDX. """
 
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
@@ -15,7 +15,7 @@ from traceback import format_exc
 
 from telethon import events
 
-from DARKLONX import bot, BOTLOG_CHATID, LOGSPAMMER
+from LEGENDX import bot, BOTLOG_CHATID, LOGSPAMMER
 
 
 def register(**args):
@@ -67,7 +67,7 @@ def register(**args):
             try:
                 await func(check)
 
-            # Thanks to @DARKLONX for this HACK.
+            # Thanks to @LEGENDX for this HACK.
             # Raise StopPropagation to Raise StopPropagation
             # This needed for AFK to working properly
 
@@ -86,7 +86,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[DARKLONXBOT Official Chat](https://t.me/teamishere)"
+                    link = "[LEGENDXBOT Official Chat](https://t.me/teamishere)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
@@ -129,8 +129,8 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.client.respond(
-                            "`Sorry, my DARKLONX has crashed😔, check logs for more info.\
-                        \nThe error logs are stored in the DARKLONX's log chat.`"
+                            "`Sorry, my LEGENDX has crashed😔, check logs for more info.\
+                        \nThe error logs are stored in the LEGENDX's log chat.`"
                         )
 
                     await check.client.send_file(send_to,

@@ -1,6 +1,6 @@
 
 
-from DARKLONX import bot as borg
+from LEGENDX import bot as borg
 
 
 
@@ -91,7 +91,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
                 )
         await event.answer(results)
     if not event.query.user_id == bot.uid:
-        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/DARKLONX/DARKLONX ",buttons=[[Button.switch_inline("Search Again", query="tor ", same_peer=True)],], )
+        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/LEGENDX/LEGENDX ",buttons=[[Button.switch_inline("Search Again", query="tor ", same_peer=True)],], )
         await event.answer([resultm])
         return
 
@@ -140,7 +140,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
         await event.answer(results)
 
     if not event.query.user_id == bot.uid:
-        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/DARKLONX/DARKLONX  ",buttons=[[Button.switch_inline("Search Again", query="yt ", same_peer=True)],], )
+        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/LEGENDX/LEGENDX  ",buttons=[[Button.switch_inline("Search Again", query="yt ", same_peer=True)],], )
         await event.answer([resultm])
         return
 

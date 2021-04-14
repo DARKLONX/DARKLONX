@@ -5,8 +5,8 @@ from datetime import datetime
 
 from uniborg.util import admin_cmd
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, progress
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, progress
 
 thumb_image_path = Config.TMP_DOWNLOAD_DIRECTORY + "thumb_image.jpg"
 

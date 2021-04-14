@@ -1,11 +1,11 @@
-"""night Plugin for Sensible_DARKLONX
+"""night Plugin for Sensible_LEGENDX
 Syntax: .night REASON"""
 import asyncio
 import datetime
 from telethon import events
 from telethon.tl import functions, types
-from DARKLONX.utils import admin_cmd
-from DARKLONX import ALIVE_NAME
+from LEGENDX.utils import admin_cmd
+from LEGENDX import ALIVE_NAME
 
 global USER_night  # pylint:disable=E0602
 global night_time  # pylint:disable=E0602
@@ -32,7 +32,7 @@ async def set_not_night(event):
                 event.chat_id,
                 "Please set `PLUGIN_CHANNEL` " + \
                 "for the proper functioning of night functionality " + \
-                "in @Sensible_DARKLONX \n\n `{}`".format(str(e)),
+                "in @Sensible_LEGENDX \n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True
             )
@@ -89,7 +89,7 @@ async def on_night(event):
     night_since = "**a while ago**"
     current_message_text = event.message.message.lower()
     if "night" in current_message_text:
-        # DARKLONX's should not reply to other DARKLONX's
+        # LEGENDX's should not reply to other LEGENDX's
         # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
         return False
     if USER_night and not (await event.get_sender()).bot:  # pylint:disable=E0602

@@ -4,7 +4,7 @@ from telethon import events
 import requests
 import os
 from datetime import datetime
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="stt (.*)"))

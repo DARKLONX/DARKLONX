@@ -1,20 +1,20 @@
 import asyncio
 # made by telebot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONX import NAME
-from DARKLONX import CMD_HELP
-from DARKLONX import bot
-from DARKLONX.utils import admin_cmd
+from LEGENDX import NAME
+from LEGENDX import CMD_HELP
+from LEGENDX import bot
+from LEGENDX.utils import admin_cmd
 
 bot = "@MissRose_bot"
-DARKLONX = NAME
+LEGENDX = NAME
 
 
 @borg.on(admin_cmd("fstat ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    ok = await event.edit(f"**CHECKING BY {DARKLONX}**...")
+    ok = await event.edit(f"**CHECKING BY {LEGENDX}**...")
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         sysarg = str(previous_message.sender_id)
@@ -41,7 +41,7 @@ async def _(event):
                     await borg.send_file(
                         event.chat_id,
                         audio,
-                        caption=f"List of feds {user} has been banned in.\n\nFSTATS CHECKED BY {DARKLONX} 🔥\n\nCollected by DARKLONX BOT.",
+                        caption=f"List of feds {user} has been banned in.\n\nFSTATS CHECKED BY {LEGENDX} 🔥\n\nCollected by LEGENDX BOT.",
                     )
                 else:
                     await borg.send_message(event.chat_id, audio.text)
@@ -63,7 +63,7 @@ async def _(event):
             await conv.get_response()
             await conv.send_message("/fedinfo " + sysarg)
             audio = await conv.get_response()
-            await ok.edit(audio.text + "\n\nFedInfo Excracted by DARKLONXBOT")
+            await ok.edit(audio.text + "\n\nFedInfo Excracted by LEGENDXBOT")
         except YouBlockedUserError:
             await ok.edit("**Error**\n `Unblock` @MissRose_Bot `and try again!")
 

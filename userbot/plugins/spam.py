@@ -1,14 +1,14 @@
-# By DARKLONX 🔥 
+# By LEGENDX 🔥 
 
 #credits dc
 # Kang with credits..
 
 import asyncio
 from asyncio import wait
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
 
-from DARKLONX.events import register
+from LEGENDX.events import register
 
 @register(outgoing=True, pattern="^.tspam")
 async def tmeme(e):

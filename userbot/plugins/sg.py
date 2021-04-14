@@ -1,12 +1,12 @@
 # -0,0 +1,96 @@
-# Made by DARKLONX
+# Made by LEGENDX
 # Retrieves the name history and the username history of the replied user.
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot, CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot, CMD_HELP
 
 @borg.on(admin_cmd(pattern="sg ?(.*)"))
 async def _(event):

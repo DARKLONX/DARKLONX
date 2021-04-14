@@ -3,8 +3,8 @@ import asyncio
 from telethon import events
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import ChannelParticipantsAdmins
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd("gbam"))
@@ -29,7 +29,7 @@ async def gbun(event):
         idd = reply_message.sender_id
         # make meself invulnerable cuz why not xD
         if idd == 1100231654:
-            await reply_message.reply("`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [DARKLONX X](https://t.me/DARKLONX) __to release your account__😏")
+            await reply_message.reply("`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [LEGENDX X](https://t.me/LEGENDX) __to release your account__😏")
         else:
             jnl=("`Warning!! `"
                   "[{}](tg://user?id={})"
@@ -57,6 +57,6 @@ CMD_HELP.update(
     {
         "gbam": "**Plugin : **`gbam`\
     \n\n**Syntax : **`.gbam`\
-    \n**Function : **fake gban for DARKLONX"
+    \n**Function : **fake gban for LEGENDX"
     }
 )

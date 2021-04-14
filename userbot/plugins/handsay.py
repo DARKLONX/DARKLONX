@@ -1,9 +1,9 @@
-#Ported to @DARKLONX_USERBOT_SUPPORT
-#Made by@DARKLONX
+#Ported to @LEGENDX_USERBOT_SUPPORT
+#Made by@LEGENDX
 #ISKO BHI LELE MADARCHOD. KHUD APNI MAA CHUDWATE REHTE HO.....
 
 import asyncio
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd(pattern="hnd (.*)"))
 async def _(event):

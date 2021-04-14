@@ -1,11 +1,11 @@
-#originally created by DARKLONX
+#originally created by LEGENDX
 
-#team DARKLONX
+#team LEGENDX
 from asyncio import sleep
 from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
 from telethon.tl.functions.channels import EditBannedRequest
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot, CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot, CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"allban", outgoing=True))

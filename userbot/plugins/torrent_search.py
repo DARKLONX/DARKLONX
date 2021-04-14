@@ -7,7 +7,7 @@ By:-@Zero_cool7870
 """
 from bs4 import BeautifulSoup as bs 
 import requests
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 import asyncio
 import json
 from bs4 import BeautifulSoup 

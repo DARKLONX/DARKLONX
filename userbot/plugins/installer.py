@@ -1,17 +1,17 @@
 # maded by shivam
-# ported by DARKLONX
-from DARKLONX import bot, CMD_HELP, CMD_LIST
+# ported by LEGENDX
+from LEGENDX import bot, CMD_HELP, CMD_LIST
 from telethon import events
-from DARKLONX.utils import remove_plugin, load_module, register
+from LEGENDX.utils import remove_plugin, load_module, register
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
 from pathlib import Path
-from DARKLONX import LOAD_PLUG
+from LEGENDX import LOAD_PLUG
 from datetime import datetime
 DELETE_TIMEOUT = 5
 import sys, asyncio, traceback, os, importlib
-import DARKLONX.utils
-from DARKLONX import CMD_HELP
+import LEGENDX.utils
+from LEGENDX import CMD_HELP
 
 
 
@@ -26,7 +26,7 @@ async def install(event):
         try:
             downloaded_file_name = await event.client.download_media(  # pylint:disable=E0602
                 await event.get_reply_message(),
-                "./DARKLONX/plugins/"  # pylint:disable=E0602
+                "./LEGENDX/plugins/"  # pylint:disable=E0602
             )
             if "(" not in downloaded_file_name:
                 path1 = Path(downloaded_file_name)

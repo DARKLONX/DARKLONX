@@ -11,7 +11,7 @@ import asyncio
 import random
 import re
 import time
-from DARKLONX import ALIVE_NAME
+from LEGENDX import ALIVE_NAME
 
 from collections import deque
 
@@ -21,9 +21,9 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
 from cowpy import cow
-from DARKLONX import bot
-from DARKLONX import CMD_HELP,YOUTUBE_API_KEY
-from DARKLONX.utils import register,admin_cmd
+from LEGENDX import bot
+from LEGENDX import CMD_HELP,YOUTUBE_API_KEY
+from LEGENDX.utils import register,admin_cmd
 
 # ================= CONSTANT =================
 RENDISTR = [
@@ -658,7 +658,7 @@ HIT = [
 #@register(outgoing=True, pattern=r"^.(\w+)say (.*)")
 @borg.on(admin_cmd(pattern=r"(\w+)say (.*)"))
 async def univsaye(cowmsg):
-    """ For .cowsay module, DARKLONX wrapper for cow which says things. """
+    """ For .cowsay module, LEGENDX wrapper for cow which says things. """
     if not cowmsg.text[0].isalpha() and cowmsg.text[0] not in ("/", "#", "@", "!"):
         arg = cowmsg.pattern_match.group(1).lower()
         text = cowmsg.pattern_match.group(2)
@@ -851,10 +851,10 @@ async def vapor(vpr):
 async def repo(event):
     if event.fwd_from:
         return
-    DARKLONX = Var.TG_BOT_USER_NAME_BF_HER
+    LEGENDX = Var.TG_BOT_USER_NAME_BF_HER
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(DARKLONX, "repo")
+    response = await bot.inline_query(LEGENDX, "repo")
     await response[0].click(event.chat_id)
     await event.delete()
 
@@ -1034,7 +1034,7 @@ async def faces(owo):
 
 @register(outgoing=True, pattern="^.react$")
 async def react_meme(react):
-    """ Make your DARKLONX react to everything. """
+    """ Make your LEGENDX react to everything. """
     if not react.text[0].isalpha() and react.text[0] not in ("/", "#", "@", "!"):
         await react.edit(random.choice(FACEREACTS))
 
@@ -1209,7 +1209,7 @@ CMD_HELP.update({
 \n\n.owo\
 \nUsage: UwU\
 \n\n.react\
-\nUsage: Make your DARKLONX react to everything.\
+\nUsage: Make your LEGENDX react to everything.\
 \n\n.slap\
 \nUsage: reply to slap them with random objects !!\
 \n\n.cry\

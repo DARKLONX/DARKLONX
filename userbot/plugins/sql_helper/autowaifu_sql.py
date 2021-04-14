@@ -1,5 +1,5 @@
 try:
-    from DARKLONX.plugins.sql_helper import BASE, SESSION
+    from LEGENDX.plugins.sql_helper import BASE, SESSION
 except ImportError:
     raise AttributeError
 

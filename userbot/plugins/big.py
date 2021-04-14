@@ -9,8 +9,8 @@ Credits to @TeleBotHelp
 # He Worked Very Hard to do this, So Please Respect Him!!
 
 import asyncio
-from DARKLONX.utils import admin_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import CMD_HELP
 from telethon import events
 import random
 import logging

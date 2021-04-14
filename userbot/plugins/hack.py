@@ -1,4 +1,4 @@
-# credits @DARKLONX
+# credits @LEGENDX
 # Kang with credits else gay..
 """
 Userbot module ye kisi ka bhi chutia bana ne me kaam aata h
@@ -9,9 +9,9 @@ import asyncio
 import os
 import sys
 import random
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot as borg
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot as borg
 
 @borg.on(admin_cmd(pattern="hack ?(.*)"))
 async def _(event):
@@ -79,7 +79,7 @@ async def _(event):
 
     await event.edit("`starting telegram hack`")
     await asyncio.sleep(1)
-    await event.edit("`Hacking... 0%completed.\nTERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (1.3) kB`")#credit to DARKLONX,sawan
+    await event.edit("`Hacking... 0%completed.\nTERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (1.3) kB`")#credit to LEGENDX,sawan
     await asyncio.sleep(2)
     await event.edit(" `Hacking... 4% completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package`")
     await asyncio.sleep(1)
@@ -119,6 +119,6 @@ async def _(event):
     if h==5:
         await event.edit("`pdf created click link below to download data\n\n😂 Don't worry only i can open this 😎😎.. If u don't Believe try to download` 🙂\n\nhttps://drive.google.com/file/d/1hPUfr27UtU0XjtC20lXjY9G3D9jR5imj/view?usp=sharing")
 
- # Made for DARKLONX BOT     
+ # Made for LEGENDX BOT     
 CMD_HELP.update({
     "hack":"ye plug-in logo ka chutia banane me kaam aaata h use .hack"})   

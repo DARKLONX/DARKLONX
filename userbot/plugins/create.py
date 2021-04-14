@@ -1,12 +1,12 @@
-# Made By @DARKLONX
+# Made By @LEGENDX
 # Keep Credits else gay....
 
 """Create Private Groups
 Available Commands:
 .create (b|g) GroupName"""
 from telethon.tl import functions
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(admin_cmd(pattern="create (b|g|c) (.*)"))  # pylint:disable=E0602
@@ -50,7 +50,7 @@ async def _(event):
             r = await event.client(
                 functions.channels.CreateChannelRequest(
                     title=group_name,
-                    about="Created By DARKLONX BOT",
+                    about="Created By LEGENDX BOT",
                     megagroup=type_of_group != "c",
                 )
             )

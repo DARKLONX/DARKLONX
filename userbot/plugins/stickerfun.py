@@ -7,9 +7,9 @@ import re
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from DARKLONX import CMD_HELP, bot
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX.helpers.functions import deEmojify
+from LEGENDX import CMD_HELP, bot
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX.helpers.functions import deEmojify
 
 # RegEx by https://t.me/c/1220993104/50065
 
@@ -59,7 +59,7 @@ async def sticklet(event):
             return
     if event.reply_to_msg_id:
         reply_message = await event.get_reply_message()
-    # delete the DARKLONX command,
+    # delete the LEGENDX command,
     # i don't know why this is required
     await event.delete()
     sticktext = deEmojify(sticktext)
@@ -80,7 +80,7 @@ async def sticklet(event):
         ((512 - width) / 2, (512 - height) / 2), sticktext, font=font, fill=(R, G, B)
     )
     image_stream = io.BytesIO()
-    image_stream.name = "DARKLONXBOT.webp"
+    image_stream.name = "LEGENDXBOT.webp"
     image.save(image_stream, "WebP")
     image_stream.seek(0)
     # finally, reply the sticker

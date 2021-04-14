@@ -1,8 +1,8 @@
-from DARKLONX import CMD_LIST
+from LEGENDX import CMD_LIST
 
-from DARKLONX import ALIVE_NAME
+from LEGENDX import ALIVE_NAME
 
-from DARKLONX.utils import admin_cmd, sudo_cmd
+from LEGENDX.utils import admin_cmd, sudo_cmd
 
 from platform import uname
 
@@ -62,7 +62,7 @@ async def cmd_list(event):
 
                         allow_cache=False,
 
-                        caption="COMMANDS In DARKLONX BOT",
+                        caption="COMMANDS In LEGENDX BOT",
 
                         reply_to=reply_to_id
 
@@ -150,7 +150,7 @@ async def _(event):
 
     logger.info(result)  # pylint:disable=E0602
 
-    await event.edit("Telethon UserBot powered DARKLONX_BOT")
+    await event.edit("Telethon UserBot powered LEGENDX_BOT")
 
 
 
@@ -172,7 +172,7 @@ async def _(event):
 
         help_string = CMD_LIST[plugin_name].doc
 
-        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© DARKLONX BOT"
+        unload_string = f"Use .unload {plugin_name} to remove this plugin.\n           Â© LEGENDX BOT"
 
         
 

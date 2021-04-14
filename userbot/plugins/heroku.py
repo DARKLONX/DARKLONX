@@ -3,7 +3,7 @@
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 """
-   Heroku manager for your DARKLONX
+   Heroku manager for your LEGENDX
 """
 
 import heroku3
@@ -11,9 +11,9 @@ import asyncio
 import os
 import requests
 import math
-from DARKLONX.utils import admin_cmd
-from DARKLONX import CMD_HELP
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.uniborgConfig import Config
 
 # ================= 
 
@@ -176,7 +176,7 @@ async def _(dyno):
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="DARKLONX BOT logs of 100+ lines",
+            caption="LEGENDX BOT logs of 100+ lines",
         )
         
         await asyncio.sleep(5)

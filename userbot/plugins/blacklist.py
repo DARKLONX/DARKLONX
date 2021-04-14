@@ -9,10 +9,10 @@ Available Commands:
 
 import re
 from telethon import events
-import DARKLONX.plugins.sql_helper.blacklist_sql as sql
+import LEGENDX.plugins.sql_helper.blacklist_sql as sql
 
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 
 @bot.on(events.NewMessage(incoming=True))

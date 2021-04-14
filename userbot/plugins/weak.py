@@ -1,11 +1,11 @@
-# made by @DARKLONX
+# made by @LEGENDX
 # kang with credits else gey
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 bot = "@MadBoy_Rotomgram2_Bot"

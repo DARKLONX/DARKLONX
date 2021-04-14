@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String
-from DARKLONX.plugins.sql_helper import SESSION, BASE
+from LEGENDX.plugins.sql_helper import SESSION, BASE
 
 
 class GBan(BASE):

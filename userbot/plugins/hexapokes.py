@@ -1,9 +1,9 @@
-# made by DARKLONX
+# made by LEGENDX
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from DARKLONX import ALIVE_NAME, CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import ALIVE_NAME, CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

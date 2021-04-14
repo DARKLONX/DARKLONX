@@ -1,5 +1,5 @@
 from sqlalchemy import Boolean, Column, String
-from DARKLONX.plugins.sql_helper import SESSION, BASE
+from LEGENDX.plugins.sql_helper import SESSION, BASE
 
 
 class Locks(BASE):

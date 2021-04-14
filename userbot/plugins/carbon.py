@@ -4,9 +4,9 @@ import random
 from urllib.parse import quote_plus
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import ALIVE_NAME, CMD_HELP
-from DARKLONX.helpers.functions import deEmojify
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import ALIVE_NAME, CMD_HELP
+from LEGENDX.helpers.functions import deEmojify
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

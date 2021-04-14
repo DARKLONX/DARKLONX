@@ -1,4 +1,4 @@
-#Ascii module by @DARKLONX for @DARKLONXBOT_official
+#Ascii module by @LEGENDX for @LEGENDXBOT_official
 #A over powerful bot
 #I know u will kang... 
 #GTFO!! MOTHERFUCKER!!!!!!!!!!!
@@ -6,8 +6,8 @@
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import CMD_HELP, ALIVE_NAME
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP, ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
@@ -33,7 +33,7 @@ async def _(event):
     if reply_message.sender.bot:
         await edit_or_reply(event, "Reply to actual users message.😒🤐")
         return
-    DARKLONX = await edit_or_reply(event, "Wait making ASCII...🤓🔥🔥")
+    LEGENDX = await edit_or_reply(event, "Wait making ASCII...🤓🔥🔥")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -42,14 +42,14 @@ async def _(event):
             await event.client.send_message(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await DARKLONX.edit("`Please unblock @asciiart_bot and try again`")
+            await LEGENDX.edit("`Please unblock @asciiart_bot and try again`")
             return
         if response.text.startswith("Forward"):
-            await DARKLONX.edit(
+            await LEGENDX.edit(
                 "`can you kindly disable your forward privacy settings for good?`"
             )
         else:
-            await DARKLONX.delete()
+            await LEGENDX.delete()
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,
@@ -75,7 +75,7 @@ async def _(event):
     if reply_message.sender.bot:
         await edit_or_reply(event, "Reply to actual users message.😒🤐")
         return
-    DARKLONX = await edit_or_reply(event, "`Processing`")
+    LEGENDX = await edit_or_reply(event, "`Processing`")
     async with event.client.conversation(chat) as conv:
         try:
             await conv.send_message("/start")
@@ -85,9 +85,9 @@ async def _(event):
             pic = await conv.get_response()
             await event.client.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await DARKLONX.edit("Please unblock @Lines50Bot and try again")
+            await LEGENDX.edit("Please unblock @Lines50Bot and try again")
             return
-        await DARKLONX.delete()
+        await LEGENDX.delete()
         await event.client.send_file(
             event.chat_id,
             pic,

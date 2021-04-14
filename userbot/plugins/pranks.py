@@ -1,7 +1,7 @@
 """
-credits to @DARKLONX
+credits to @LEGENDX
 """
-# Kang with credits. Using in DARKLONX BOT...
+# Kang with credits. Using in LEGENDX BOT...
 #    Copyright (C) 2020  sandeep.n(π.$)
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -20,8 +20,8 @@ import os
 from telegraph import exceptions, upload_file
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from DARKLONX import CMD_HELP
-from DARKLONX.helpers.functions import (
+from LEGENDX import CMD_HELP
+from LEGENDX.helpers.functions import (
     convert_toimage,
     deEmojify,
     phcomment,
@@ -29,14 +29,14 @@ from DARKLONX.helpers.functions import (
     trap,
     trash,
 )
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 from . import *
 
 
 @bot.on(admin_cmd(pattern="threats(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="threats(?: |$)(.*)", allow_sudo=True))
-async def DARKLONXBOT(hellmemes):
+async def LEGENDXBOT(hellmemes):
     replied = await hellmemes.get_reply_message()
     if not os.path.isdir("./temp/"):
         os.makedirs("./temp/")
@@ -89,7 +89,7 @@ async def DARKLONXBOT(hellmemes):
 
 @bot.on(admin_cmd(pattern="trash(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="trash(?: |$)(.*)", allow_sudo=True))
-async def DARKLONXBOT(hellmemes):
+async def LEGENDXBOT(hellmemes):
     replied = await hellmemes.get_reply_message()
     if not os.path.isdir("./temp/"):
         os.makedirs("./temp/")
@@ -142,7 +142,7 @@ async def DARKLONXBOT(hellmemes):
 
 @bot.on(admin_cmd(pattern="trap(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="trap(?: |$)(.*)", allow_sudo=True))
-async def DARKLONXBOT(hellmemes):
+async def LEGENDXBOT(hellmemes):
     input_str = hellmemes.pattern_match.group(1)
     input_str = deEmojify(input_str)
     if "-" in input_str:
@@ -205,7 +205,7 @@ async def DARKLONXBOT(hellmemes):
 
 @bot.on(admin_cmd(pattern="phc(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="phc(?: |$)(.*)", allow_sudo=True))
-async def DARKLONXBOT(hellmemes):
+async def LEGENDXBOT(hellmemes):
     input_str = hellmemes.pattern_match.group(1)
     input_str = deEmojify(input_str)
     if "-" in input_str:

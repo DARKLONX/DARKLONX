@@ -7,8 +7,8 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 from telegraph import Telegraph
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 from var import Var
 telegraph = Telegraph()
 mee = telegraph.create_account(short_name="yohohehe")

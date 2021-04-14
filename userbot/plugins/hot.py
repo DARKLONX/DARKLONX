@@ -1,11 +1,11 @@
 
-# credits DARKLONX
+# credits LEGENDX
 
 from telethon import events
 import asyncio
-#from DARKLONX.utils import admin_cmd
-from DARKLONX.events import register 
-from DARKLONX import bot, CMD_HELP
+#from LEGENDX.utils import admin_cmd
+from LEGENDX.events import register 
+from LEGENDX import bot, CMD_HELP
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:

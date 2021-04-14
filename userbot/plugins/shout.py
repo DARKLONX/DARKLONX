@@ -5,7 +5,7 @@ originaly from : @corsicanu_bot
 
 import sys
 from telethon import events, functions
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 import random
 
 

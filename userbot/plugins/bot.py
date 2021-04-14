@@ -1,9 +1,9 @@
-# make by @DARKLONX
+# make by @LEGENDX
 # inline alive
 # modify by proboy22
 import asyncio
 import os
-from DARKLONX import BOT, PHOTO, VERSION
+from LEGENDX import BOT, PHOTO, VERSION
 import requests
 import time
 from PIL import Image
@@ -11,21 +11,21 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, Button, custom
-from DARKLONX.utils import admin_cmd
-from DARKLONX import ALIVE_NAME
-from DARKLONX import bot as borg
+from LEGENDX.utils import admin_cmd
+from LEGENDX import ALIVE_NAME
+from LEGENDX import bot as borg
 from telethon.tl.custom import Button
 from telethon.tl.types import ChannelParticipantsAdmins
 global ok
 ok = borg.uid
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from PIL import Image
 import requests
 from io import BytesIO
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 ALIVE_PHOTTO = PHOTO
 
-pro_text=(f"**{BOT} IS ON FIRE **\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n🔥 About My System 🔥\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ 1.20\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/DARKLONXBOT_OFFICIAL)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [DARKLONX BOT](https://github.com/DARKLONX)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [DARKLONX](https://github.com/DARKLONX/DARKLONX)\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
+pro_text=(f"**{BOT} IS ON FIRE **\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n🔥 About My System 🔥\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ 1.20\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/LEGENDXBOT_OFFICIAL)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [LEGENDX BOT](https://github.com/LEGENDX)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [LEGENDX](https://github.com/LEGENDX/LEGENDX)\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
 TG_BOT_USER_NAME_BF_HER = os.environ.get("ALIVE_PHOTTO", None)
 if TG_BOT_USER_NAME_BF_HER is not None:
     @tgbot.on(events.InlineQuery)
@@ -37,9 +37,9 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
-                    Button.url("Repo", "https://github.com/DARKLONX/DARKLONX"),
-                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARKLONX/DARKLONX/blob/master")],
-                    [Button.url("String", "https://repl.it/DARKLONX/DARKLONX#main.py"),
+                    Button.url("Repo", "https://github.com/LEGENDX/LEGENDX"),
+                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/LEGENDX/LEGENDX/blob/master")],
+                    [Button.url("String", "https://repl.it/LEGENDX/LEGENDX#main.py"),
                     Button.url("Channel", "https://t.me/teamishere"),
                 ]
             ]
@@ -53,14 +53,14 @@ if TG_BOT_USER_NAME_BF_HER is not None:
             elif ALIVE_PHOTTO:
                 result = builder.document(
                     ALIVE_PHOTTO,
-                    title="DARKLONX BOT",
+                    title="LEGENDX BOT",
                     text=pro_text,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
-                    title="DARKLONX BOT",
+                    title="LEGENDX BOT",
                     text=pro_text,
                     buttons=buttons,
                     link_preview=False,
@@ -69,16 +69,16 @@ if TG_BOT_USER_NAME_BF_HER is not None:
 
 
 
-from DARKLONX import bot
+from LEGENDX import bot
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive"))
 async def repo(event):
     if event.fwd_from:
         return
-    DARKLONX = Var.TG_BOT_USER_NAME_BF_HER
+    LEGENDX = Var.TG_BOT_USER_NAME_BF_HER
     if event.reply_to_msg_id:
         await event.get_reply_message()
-    response = await bot.inline_query(DARKLONX, "alive")
+    response = await bot.inline_query(LEGENDX, "alive")
     await response[0].click(event.chat_id)
     await event.delete()

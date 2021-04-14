@@ -6,13 +6,13 @@ import time
 from datetime import datetime
 from io import BytesIO
 from pathlib import Path
-from DARKLONX import bot as borg
+from LEGENDX import bot as borg
 from telethon import functions, types
 from telethon.errors import PhotoInvalidDimensionsError
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.messages import SendMediaRequest
 
-from DARKLONX.utils import admin_cmd, progress
+from LEGENDX.utils import admin_cmd, progress
 
 
 if not os.path.isdir("./temp"):

@@ -11,14 +11,14 @@ from PIL import Image, ImageDraw
 import pygments, os, asyncio, shutil, scapy, sys, requests, re, subprocess
 from pygments.lexers import Python3Lexer
 from pygments.formatters import ImageFormatter
-from DARKLONX import bot, CMD_HELP
-from DARKLONX.utils import admin_cmd, sudo_cmd
+from LEGENDX import bot, CMD_HELP
+from LEGENDX.utils import admin_cmd, sudo_cmd
 from telegraph import upload_file
 from telethon import events
 from telethon.tl.types import MessageMediaPhoto
 
 
-path = "./DARKLONX/"
+path = "./LEGENDX/"
 if not os.path.isdir(path):
     os.makedirs(path)
 

@@ -5,7 +5,7 @@ Available Commands:
 
 import emoji
 from googletrans import Translator
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from telethon import events
 
 
@@ -36,7 +36,7 @@ async def _(event):
         after_tr_text = translated.text
         # TODO: emojify the :
         # either here, or before translation
-        output_str = """**Translated By DARKLONX BOT** 
+        output_str = """**Translated By LEGENDX BOT** 
          Source **( {} )**
          Translation **( {} )**
          {}""".format(

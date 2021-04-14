@@ -18,9 +18,9 @@ from telethon import events
 #made by Sh1vam Donot kang
 import asyncio
 #made by Sh1vam Donot kang
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot as tgbot
-from DARKLONX import bot as borg
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot as tgbot
+from LEGENDX import bot as borg
 import os
 import re
 import urllib
@@ -73,7 +73,7 @@ async def inline_id_handler(q_event: events.InlineQuery.Event):
                     buttons=Button.switch_inline("Search Again", query="google ", same_peer=True)))
         await q_event.answer(miraculous)
     if not q_event.query.user_id == bot.uid:
-        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/DARKLONX/DARKLONX ",buttons=[[Button.switch_inline("Search Again", query="google ", same_peer=True)],], )
+        resultm = builder.article(title="me not your bot",description="Mind Your Business",text="Hey U Must Use https://github.com/LEGENDX/LEGENDX ",buttons=[[Button.switch_inline("Search Again", query="google ", same_peer=True)],], )
         await q_event.answer([resultm])
         return
 #made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang#made by Sh1vam Donot kang

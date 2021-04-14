@@ -1,6 +1,6 @@
 # Created By starkdy And Ported For Type 2 Userbot By StarkxD
-# modified and added more tweets by @DARKLONX for DARKLONXBOT.....
-# added sudo support by @DARKLONX
+# modified and added more tweets by @LEGENDX for LEGENDXBOT.....
+# added sudo support by @LEGENDX
 # family completed.....
 # mia, johhny, sunny
 # modi, rahul, trump, gandhiji
@@ -9,27 +9,27 @@
 import requests , re
 from PIL import Image
 from validators.url import url
-from DARKLONX import CMD_HELP
-from DARKLONX.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.helpers.functions import trumptweet, changemymind, kannagen, moditweet, miatweet, papputweet, sunnytweet, sinstweet, taklatweet, deEmojify, tweets
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 @bot.on(admin_cmd(pattern=r"tweet(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="tweet(?: |$)(.*)", allow_sudo=True))
-async def nope(DARKLONX):
-    hell = DARKLONX.pattern_match.group(1)
+async def nope(LEGENDX):
+    hell = LEGENDX.pattern_match.group(1)
     if not hell:
-        if DARKLONX.is_reply:
-            what = (await DARKLONX.get_reply_message()).message
+        if LEGENDX.is_reply:
+            what = (await LEGENDX.get_reply_message()).message
         else:
-            await DARKLONX.edit("I need some text to make a tweet🚶")
+            await LEGENDX.edit("I need some text to make a tweet🚶")
             return
     tweeter = await bot.inline_query(
         "TwitterStatusBot", f"{(deEmojify(hell))}")
-    await tweeter[0].click(DARKLONX.chat_id,
-                            reply_to=DARKLONX.reply_to_msg_id,
-                            silent=True if DARKLONX.is_reply else False,
+    await tweeter[0].click(LEGENDX.chat_id,
+                            reply_to=LEGENDX.reply_to_msg_id,
+                            silent=True if LEGENDX.is_reply else False,
                             hide_via=True)
-    await DARKLONX.delete()
+    await LEGENDX.delete()
 
 
 @bot.on(admin_cmd(pattern=r"trump(?: |$)(.*)"))

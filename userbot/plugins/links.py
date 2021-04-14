@@ -9,8 +9,8 @@ from telethon import events
 import os
 import requests
 import json
-from DARKLONX.utils import admin_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import CMD_HELP
 
 @borg.on(admin_cmd("dns (.*)"))
 async def _(event):

@@ -3,8 +3,8 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
 
 
 
@@ -25,7 +25,7 @@ async def _(event):
     if reply_message.sender.bot:
         await edit_or_reply(event, "Reply to actual users message.")
         return
-    DARKLONX = await edit_or_reply(event, "Trying to convert...")
+    LEGENDX = await edit_or_reply(event, "Trying to convert...")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -34,14 +34,14 @@ async def _(event):
             await event.client.send_message(chat, reply_message)
             response = await response
         except YouBlockedUserError:
-            await DARKLONX.edit("```Please unblock @TelescopyBot and try again```")
+            await LEGENDX.edit("```Please unblock @TelescopyBot and try again```")
             return
         if response.text.startswith("Forward"):
-            await DARKLONX.edit(
+            await LEGENDX.edit(
                 "```can you kindly disable your forward privacy settings for good?```"
             )
         else:
-            await DARKLONX.delete()
+            await LEGENDX.delete()
             await event.client.send_file(
                 event.chat_id,
                 response.message.media,

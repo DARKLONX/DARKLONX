@@ -8,8 +8,8 @@ import requests
 import re
 import json
 import asyncio
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 async def callAPI(search_str):
     query = '''
@@ -70,7 +70,7 @@ async def formatJSON(outData):
         msg += f"\n**Year** : {jsonData['startDate']['year']}"
         msg += f"\n**Score** : {jsonData['averageScore']}"
         msg += f"\n**Duration** : {jsonData['duration']} min\n\n"
-        #https://t.me/catDARKLONX_support/19496
+        #https://t.me/catLEGENDX_support/19496
         cat = f"{jsonData['description']}"
         msg += " __" + re.sub("<br>", '\n', cat) +"__"
         return msg

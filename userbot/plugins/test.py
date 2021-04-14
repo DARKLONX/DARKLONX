@@ -1,9 +1,9 @@
     
-#Credit To @DARKLONX . Keep credit if you are going to edit it. Join @DARKLONX_USERBOT_SUPPORT
+#Credit To @LEGENDX . Keep credit if you are going to edit it. Join @LEGENDX_USERBOT_SUPPORT
 
 
 import random, re
-from DARKLONX import CMD_HELP
+from LEGENDX import CMD_HELP
 from uniborg.util import admin_cmd
 import asyncio
 from telethon import events
@@ -12,9 +12,9 @@ from telethon import events
 async def _(event):
      if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
        
-        await event.edit("`Testing DARKLONX BOT....`")
+        await event.edit("`Testing LEGENDX BOT....`")
         await asyncio.sleep(2)
-        await event.edit("`Testing DARKLONX BOT..`")
+        await event.edit("`Testing LEGENDX BOT..`")
         await asyncio.sleep(2)
         await event.edit("__Testing Successful__")
         await asyncio.sleep(2)
@@ -22,7 +22,7 @@ async def _(event):
         await asyncio.sleep(2)
         await event.edit("__Output Successful__")
         await asyncio.sleep(3.5)
-        await event.edit("Your[DARKLONX BOT](https:/t.me/hackerget0) is working Fine...\n       Join @teamishere For Any Help......")
+        await event.edit("Your[LEGENDX BOT](https:/t.me/hackerget0) is working Fine...\n       Join @teamishere For Any Help......")
 
 CMD_HELP.update(
     {

@@ -5,7 +5,7 @@ from telethon import events
 from datetime import datetime
 import io
 import speedtest
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd("speedtest ?(.*)"))

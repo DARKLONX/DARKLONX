@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import func, distinct, Column, String, UnicodeText
 
-from DARKLONX.plugins.sql_helper import SESSION, BASE
+from LEGENDX.plugins.sql_helper import SESSION, BASE
 
 
 class BlackListFilters(BASE):

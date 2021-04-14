@@ -9,9 +9,9 @@ from asyncio import sleep
 
 from telethon.errors import rpcbaseerrors
 
-from DARKLONX import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from DARKLONX.utils import register, errors_handler
-from DARKLONX.utils import admin_cmd
+from LEGENDX import BOTLOG, BOTLOG_CHATID, CMD_HELP
+from LEGENDX.utils import register, errors_handler
+from LEGENDX.utils import admin_cmd
 
 
 #@register(outgoing=True, pattern="^.purge$")

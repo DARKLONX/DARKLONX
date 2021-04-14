@@ -9,8 +9,8 @@
 from telethon.events import NewMessage
 from typing import Union
 
-from DARKLONX import CMD_HELP
-from DARKLONX.events import register
+from LEGENDX import CMD_HELP
+from LEGENDX.events import register
 
 from re import findall, match
 from typing import List

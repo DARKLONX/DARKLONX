@@ -1,12 +1,12 @@
 """Reply to an image/sticker with .mmf` 'text on top' ; 'text on bottom
-forked by: @DARKLONX
+forked by: @LEGENDX
 created by: @A_Dark_Princ3
 """
 
 from PIL import Image, ImageFont, ImageDraw
 
 import textwrap, os
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 

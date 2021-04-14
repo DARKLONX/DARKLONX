@@ -5,7 +5,7 @@ from telethon import events
 import json
 import os
 import requests
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 def ocr_space_file(filename, overlay=False, api_key=Config.OCR_SPACE_API_KEY, language='eng'):
@@ -115,7 +115,7 @@ async def parse_ocr_space_api(event):
         ParsedText = test_file["ParsedResults"][0]["ParsedText"]
         ProcessingTimeInMilliseconds = str(int(test_file["ProcessingTimeInMilliseconds"]) // 1000)
     except Exception as e:
-        await event.edit("Errors.\n `{}`\nReport This to @DARKLONX_USERBOT_SUPPORT\n\n`{}`".format(str(e), json.dumps(test_file, sort_keys=True, indent=4)))
+        await event.edit("Errors.\n `{}`\nReport This to @LEGENDX_USERBOT_SUPPORT\n\n`{}`".format(str(e), json.dumps(test_file, sort_keys=True, indent=4)))
     else:
         await event.edit("Read Document in {} seconds. \n{}".format(ProcessingTimeInMilliseconds, ParsedText))
     os.remove(downloaded_file_name)

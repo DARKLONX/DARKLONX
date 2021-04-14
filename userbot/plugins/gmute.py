@@ -1,7 +1,7 @@
-from DARKLONX.plugins.sql_helper.mute_sql import is_muted, mute, unmute
+from LEGENDX.plugins.sql_helper.mute_sql import is_muted, mute, unmute
 import asyncio
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 #@command(outgoing=True, pattern=r"^.gmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"gmute ?(\d+)?"))

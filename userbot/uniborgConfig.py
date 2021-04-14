@@ -44,7 +44,7 @@ if ENV:
         # DO NOT EDIT BELOW THIS LINE IF YOU DO NOT KNOW WHAT YOU ARE DOING
         # TG API limit. A message can have maximum 4096 characters!
         MAX_MESSAGE_SIZE_LIMIT = 4095
-        # set blacklist_chats where you do not want DARKLONX's features
+        # set blacklist_chats where you do not want LEGENDX's features
         UB_BLACK_LIST_CHAT = set(int(x) for x in os.environ.get("UB_BLACK_LIST_CHAT", "").split())
         # maximum number of messages for antiflood
         MAX_ANTI_FLOOD_MESSAGES = 10
@@ -142,7 +142,7 @@ if ENV:
         LYDIA_API = os.environ.get("LYDIA_API",None)
         PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/DARKLON/DARKLONX"
+            "UPSTREAM_REPO", "https://github.com/DARKLON/LEGENDX"
         )
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
    # Deepai value can get from https://deepai.org/

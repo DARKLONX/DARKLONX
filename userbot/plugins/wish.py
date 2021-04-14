@@ -1,17 +1,17 @@
-# made by @Alain_Champion and TEAMDARKLONX
-# Credites :- @DARKLONX , @PROBOYX
+# made by @Alain_Champion and TEAMLEGENDX
+# Credites :- @LEGENDX , @PROBOYX
 # if you kang this please keep credits
 
-# SPECIES THANKS TEAMDARKLONX
+# SPECIES THANKS TEAMLEGENDX
 
 import os
 import time
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from DARKLONX import CMD_HELP
-from DARKLONX import bot
-from DARKLONX.utils import admin_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX import bot
+from LEGENDX.utils import admin_cmd
 from telethon import version
 from math import ceil
 import json
@@ -20,11 +20,11 @@ import re
 import io
 from platform import python_version, uname
 @bot.on(admin_cmd(pattern="wish ?(.*)"))
-async def DARKLONXBOT(event):
-    DARKLONX = event.pattern_match.group(1)
+async def LEGENDXBOT(event):
+    LEGENDX = event.pattern_match.group(1)
     PROBOY = random.randint(0, 100)
-    if DARKLONX:
-        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{DARKLONX}`** ✨
+    if LEGENDX:
+        reslt = f'''🦋 Yᴏᴜʀ ᴡɪsʜ ʜᴀs ʙᴇᴇɴ ᴄᴀsᴛᴇᴅ 🦋\n\n\n☘️ 𝐘𝐨𝐮𝐫 𝐖𝐢𝐬𝐡 ➪ **`{LEGENDX}`** ✨
               \n\n🔥𝙲𝙷𝙰𝙽𝙲𝙴 𝙾𝙵 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 : **{PROBOY}%**'''
     else:
         if event.is_reply:

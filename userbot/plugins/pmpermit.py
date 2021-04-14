@@ -10,7 +10,7 @@
 
 #    the Free Software Foundation, either version 3 of the License, or
 
-#    maked by DARKLONX 🔥🔥🔥🔥 helper shivam ⚡⚡⚡
+#    maked by LEGENDX 🔥🔥🔥🔥 helper shivam ⚡⚡⚡
 
 #    This program is distributed in the hope that it will be useful,
 
@@ -38,17 +38,17 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 
 
-import DARKLONX.plugins.sql_helper.pmpermit_sql as lightning_sql
+import LEGENDX.plugins.sql_helper.pmpermit_sql as lightning_sql
 
-from DARKLONX import ALIVE_NAME, bot
+from LEGENDX import ALIVE_NAME, bot
 
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.uniborgConfig import Config
 
 from var import Var
 
-LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+LIGHTNINGUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 
-from DARKLONX.utils import admin_cmd as lightning_cmd
+from LEGENDX.utils import admin_cmd as lightning_cmd
 
 
 
@@ -520,7 +520,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, "**Heya @DARKLONX YOU ARE MY CREATOR I APPROVED YOU SIR ❤️🥰🔥⚜️**"
+                chats, "**Heya @LEGENDX YOU ARE MY CREATOR I APPROVED YOU SIR ❤️🥰🔥⚜️**"
 
             )
 
@@ -550,7 +550,7 @@ async def krish_op(event):
 
             await borg.send_message(
 
-                chats, f"**Good To See You @DARKLONX How Can I Disapprove You Come In Sir**ðð"
+                chats, f"**Good To See You @LEGENDX How Can I Disapprove You Come In Sir**ðð"
 
             )
 

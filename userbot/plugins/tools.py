@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 from PIL import Image, ImageColor
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern="scan ?(.*)"))
@@ -389,7 +389,7 @@ CMD_HELP.update(
         \n\n**Syntax : **`cal year ; month`\
         \n**Function : **__Shows you the calendar of given month and year__\
         \n\n**Syntax : **`.currency` amount (from currency) (to currency)\
-        \n**Function : **__Currency converter for DARKLONX __**Example :** `.currency 10 usd inr`\
+        \n**Function : **__Currency converter for LEGENDX __**Example :** `.currency 10 usd inr`\
         \n\n**Syntax : **`.currencies`\
         \n**Function : **__Shows you the some list of currencies__\
         \n\n**Syntax : **`.ifsc` <IFSC code>\

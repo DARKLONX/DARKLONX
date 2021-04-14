@@ -1,5 +1,5 @@
 #Originally made by @rekcah for @javes05
-#porting to DARKLONXBOT by @DARKLONX...
+#porting to LEGENDXBOT by @LEGENDX...
 #i asked rekcah before porting...not like other kangers....
 #keep credit if u wanna kang...
 #else u are a gay...no doubt in that....
@@ -10,8 +10,8 @@ import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, js
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from base64 import b64decode
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
@@ -83,13 +83,13 @@ async def get_users(event):
         hell = await event.reply("`processing...`")
     else:
     	hell = await event.edit("`processing...`")
-    DARKLONX = await get_chatinfo(event) ; chat = await event.get_chat()
+    LEGENDX = await get_chatinfo(event) ; chat = await event.get_chat()
     if event.is_private:
               return await hell.edit("`Sorry, Can add users here`")    
     s = 0 ; f = 0 ; error = 'None'   
   
     await hell.edit("**TerminalStatus**\n\n`Collecting Users.......`")
-    async for user in event.client.iter_participants(DARKLONX.full_chat.id):
+    async for user in event.client.iter_participants(LEGENDX.full_chat.id):
                 try:
                     if error.startswith("Too"):
                         return await hell.edit(f"**Terminal Finished With Error**\n(`May Got Limit Error from telethon Please try agin Later`)\n**Error** : \n`{error}`\n\n• Invited `{s}` people \n• Failed to Invite `{f}` people")

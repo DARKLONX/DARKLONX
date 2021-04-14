@@ -5,7 +5,7 @@ from datetime import datetime
 from .. import ALIVE_NAME, StartTime, CMD_HELP
 from ..utils import admin_cmd, sudo_cmd, edit_or_reply
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX USER"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX USER"
 def get_readable_time(seconds: int) -> str:
     count = 0
     ping_time = ""
@@ -55,6 +55,6 @@ CMD_HELP.update(
     {
         "loda": "**Plugin : **`loda`\
     \n\n**Syntax : **`.loda`\
-    \n**Function : **funny Plugin made by @DARKLONX"
+    \n**Function : **funny Plugin made by @LEGENDX"
     }
 )

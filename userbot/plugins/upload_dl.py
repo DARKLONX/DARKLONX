@@ -15,8 +15,8 @@ from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from telethon.tl.types import DocumentAttributeVideo
 
-from DARKLONX import LOGS, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
-from DARKLONX.events import register
+from LEGENDX import LOGS, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
+from LEGENDX.events import register
 
 
 async def progress(current, total, event, start, type_of_ps, file_name=None):
@@ -79,8 +79,8 @@ def time_formatter(milliseconds: int) -> str:
 
 @register(pattern=r".dl(?: |$)(.*)", outgoing=True)
 async def download(target_file):
-    """ For .dl command, download files to the DARKLONX's server. """
-    await target_file.edit("Processing using DARKLONX server ( ◜‿◝ )♡")
+    """ For .dl command, download files to the LEGENDX's server. """
+    await target_file.edit("Processing using LEGENDX server ( ◜‿◝ )♡")
     input_str = target_file.pattern_match.group(1)
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
         os.makedirs(TEMP_DOWNLOAD_DIRECTORY)
@@ -231,10 +231,10 @@ async def uploadir(udir_event):
 
 @register(pattern=r".upload (.*)", outgoing=True)
 async def upload(u_event):
-    """ For .upload command, allows you to upload a file from the DARKLONX's server """
+    """ For .upload command, allows you to upload a file from the LEGENDX's server """
     await u_event.edit("Processing ...")
     input_str = u_event.pattern_match.group(1)
-    if input_str in ("DARKLONX.session", "config.env"):
+    if input_str in ("LEGENDX.session", "config.env"):
         await u_event.edit("`That's a dangerous operation! Not Permitted!`")
         return
     if os.path.exists(input_str):

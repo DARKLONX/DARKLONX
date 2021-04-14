@@ -1,6 +1,6 @@
 import asyncio, subprocess
 import time, re, io
-from DARKLONX import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
+from LEGENDX import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
 from telethon import events, functions, types
 from telethon.events import StopPropagation
 from telethon.tl.functions.messages import ExportChatInviteRequest
@@ -8,8 +8,8 @@ from telethon.tl.functions.contacts import BlockRequest
 from telethon.tl.functions.channels import LeaveChannelRequest, CreateChannelRequest, DeleteMessagesRequest
 from collections import deque
 from telethon.tl.functions.users import GetFullUserRequest
-from DARKLONX.events import register
-from DARKLONX.utils import admin_cmd
+from LEGENDX.events import register
+from LEGENDX.utils import admin_cmd
 
 
 @borg.on(admin_cmd(";__;$"))
@@ -64,13 +64,13 @@ async def _(event):
 #@register(outgoing=True, pattern="^.source$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("/HellBoy-OP/DARKLONXBOT")
+        await e.edit("/HellBoy-OP/LEGENDXBOT")
 
 @borg.on(admin_cmd("readme$"))
 #@register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("/HellBoy-OP/DARKLONXBOT/blob/master/README.md")
+        await e.edit("/HellBoy-OP/LEGENDXBOT/blob/master/README.md")
 
 
 @borg.on(admin_cmd(pattern="evil ?(.*)"))
@@ -137,7 +137,7 @@ CMD_HELP.update({
     "readme": "Reedme."
 })
 CMD_HELP.update({
-    "source": "Gives the source of your DARKLONX"
+    "source": "Gives the source of your LEGENDX"
 })
 CMD_HELP.update({
     "myusernames": "List of Usernames owned by you."

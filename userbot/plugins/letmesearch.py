@@ -22,7 +22,7 @@ from telethon import events
 import os
 import requests
 import json
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 
 
 

@@ -2,7 +2,7 @@
 and set as own profile.
 Syntax: .clone @username"""
 #Copy That Plugin by @ViperAdnan
-#modified by @DARKLONX
+#modified by @LEGENDX
 #Give credit if you are going to kang it.
 
 import html
@@ -11,7 +11,7 @@ from telethon.tl.functions.photos import GetUserPhotosRequest
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 from telethon.utils import get_input_location
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from telethon.tl import functions
 from telethon import events
 from telethon.errors import ImageProcessFailedError, PhotoCropSizeSmallError
@@ -24,11 +24,11 @@ from telethon.tl.functions.photos import (DeletePhotosRequest,
                                           GetUserPhotosRequest,
                                           UploadProfilePhotoRequest)
 from telethon.tl.types import InputPhoto, MessageMediaPhoto, User, Chat, Channel
-from DARKLONX import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
+from LEGENDX import bot, CMD_HELP , AUTONAME , BIO_MSG , ALIVE_NAME
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
-DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "DARKLONX USE DARKLONX"
+DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "LEGENDX USE LEGENDX"
 BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
 BOTLOG = True
 

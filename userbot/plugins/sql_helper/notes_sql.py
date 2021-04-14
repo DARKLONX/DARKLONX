@@ -1,5 +1,5 @@
 try:
-    from DARKLONX.modules.sql_helper import SESSION, BASE
+    from LEGENDX.modules.sql_helper import SESSION, BASE
 except ImportError:
     raise Exception("Hello!")
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func

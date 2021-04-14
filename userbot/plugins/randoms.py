@@ -7,14 +7,14 @@ Sing credits :By @PhycoNinja13b
 No Logic Pligon for @PepeBot
 \nCoding by Legend @NeoMatrix90
 \nType .logic to see many logical fact
-merged by @DARKLONX
+merged by @LEGENDX
 """
 
 import random
 from asyncio import sleep
 
-from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from LEGENDX import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"sing$", outgoing=True))

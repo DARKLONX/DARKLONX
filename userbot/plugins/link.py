@@ -8,7 +8,7 @@ from asyncio import sleep
 from os import remove
 from telethon.errors import BadRequestError, UserAdminInvalidError
 from telethon.errors.rpcerrorlist import UserIdInvalidError
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from telethon.tl.types import (PeerChannel, ChannelParticipantsAdmins,
                                ChatAdminRights, ChatBannedRights,
                                MessageEntityMentionName,

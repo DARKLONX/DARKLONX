@@ -1,10 +1,10 @@
 """
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-(((((((((((((((((((((((@DARKLONX)))))))))))))))))))))))))))
-           MADE BY @DARKLONX dont kang this plugin
-         CREDITS = @DARKLONX @PROBOYX @alain_champion
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+(((((((((((((((((((((((@LEGENDX)))))))))))))))))))))))))))
+           MADE BY @LEGENDX dont kang this plugin
+         CREDITS = @LEGENDX @PROBOYX @alain_champion
      Special thanks @alain_champion for this modified version
             if you kang then keep credits
 """
@@ -13,10 +13,10 @@ import time
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
-from DARKLONX import ALIVE_NAME, StartTime, CMD_HELP
+from LEGENDX import ALIVE_NAME, StartTime, CMD_HELP
 from . import legend
-from DARKLONX import BOT, PHOTO, VERSION
-from DARKLONX.utils import admin_cmd
+from LEGENDX import BOT, PHOTO, VERSION
+from LEGENDX.utils import admin_cmd
 from math import ceil
 import json
 import random
@@ -26,11 +26,11 @@ import io
 from platform import python_version, uname
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARKLONX BOY"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "LEGENDX BOY"
 
 global kanger #kanger aaya bhaago bc
         
-#make by DARKLONX X bht mehnat lag gayi yrr but banhi gaya 😅           
+#make by LEGENDX X bht mehnat lag gayi yrr but banhi gaya 😅           
 @borg.on(admin_cmd(pattern=r"awake"))
 async def amireallyalive(awake):
    """ For .awake command, check if the bot is running.  """
@@ -45,8 +45,8 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔶 𝙻𝙴𝙶𝙴𝙽𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 🔶 :   {VERSION}\n\n"
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
-     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/DARKLONX_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONX%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONX%2FDARKLONX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGENDX_USERBOT_SUPPORT)\n\n"
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FLEGENDX%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FLEGENDX%2FLEGENDX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    elif PHOTO == None:
@@ -60,8 +60,8 @@ async def amireallyalive(awake):
      ALIVE_MESSAGE += f"🔶 𝙻𝙴𝙶𝙴𝙽𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 🔶 :   {VERSION}\n\n"
      ALIVE_MESSAGE += f"🔷 𝚄𝙿𝚃𝙸𝙼𝙴 🔷 : {uptm}\n\n"
      ALIVE_MESSAGE += f"💠 𝙼𝚈 𝙱𝙾𝚂𝚂 💠: [{DEFAULTUSER}](tg://user?id={tag})\n\n"
-     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/DARKLONX_USERBOT_SUPPORT)\n\n"
-     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FDARKLONX%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FDARKLONX%2FDARKLONX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
+     ALIVE_MESSAGE += "🔰 𝙶𝚁𝙾𝚄𝙿 🔰 : [SUPPORT](https://t.me/LEGENDX_USERBOT_SUPPORT)\n\n"
+     ALIVE_MESSAGE += f"💠 [𝙳𝙴𝙿𝙻𝙾𝚈](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FLEGENDX%2FLEGEN-BOT&template=https%3A%2F%2Fgithub.com%2FLEGENDX%2FLEGENDX-ROBOT) 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙾𝙿 [{BOT}](http://github.com/legendxop/legend-bot)  💠\n"   
      await awake.delete() 
      await borg.send_file(awake.chat_id, PHOTO,caption=ALIVE_MESSAGE)
    else:

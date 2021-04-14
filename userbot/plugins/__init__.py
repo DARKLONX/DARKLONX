@@ -1,4 +1,4 @@
-from DARKLONX import simpdef
+from LEGENDX import simpdef
 from ..helper import functions as legend
 
 

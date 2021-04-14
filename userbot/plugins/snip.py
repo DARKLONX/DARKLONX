@@ -8,8 +8,8 @@ Available Commands:
 .snipd"""
 from telethon import events, utils
 from telethon.tl import types
-from DARKLONX.plugins.sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
-from DARKLONX.utils import admin_cmd
+from LEGENDX.plugins.sql_helper.snips_sql import get_snips, add_snip, remove_snip, get_all_snips
+from LEGENDX.utils import admin_cmd
 
 
 TYPE_TEXT = 0

@@ -1,4 +1,4 @@
-#Made By@DARKLONX Keep Credits If You Are Goanna Kang This Lol
+#Made By@LEGENDX Keep Credits If You Are Goanna Kang This Lol
 
 #And Thanks To The Creator Of Autopic This Script Was Made from Snippets From That Script
 
@@ -16,8 +16,8 @@ import re
 import urllib
 import requests
 from telethon.tl import functions
-from DARKLONX.utils import admin_cmd
-from DARKLONX import CMD_HELP
+from LEGENDX.utils import admin_cmd
+from LEGENDX import CMD_HELP
 
 COLLECTION_STRING1 = [
     "awesome-batman-wallpapers",

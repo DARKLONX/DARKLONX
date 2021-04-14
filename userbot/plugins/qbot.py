@@ -1,11 +1,11 @@
-#port to Legend Bot by@DARKLONX
+#port to Legend Bot by@LEGENDX
 
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from DARKLONX import bot, CMD_HELP
-from DARKLONX.utils import admin_cmd
+from LEGENDX import bot, CMD_HELP
+from LEGENDX.utils import admin_cmd
 
 @borg.on(admin_cmd("qbot ?(.*)"))
 async def _(event):

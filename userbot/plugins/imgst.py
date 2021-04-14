@@ -2,8 +2,8 @@ import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.account import UpdateNotifySettingsRequest
-from DARKLONX.utils import admin_cmd
-from DARKLONX import bot 
+from LEGENDX.utils import admin_cmd
+from LEGENDX import bot 
 
 @borg.on(admin_cmd(pattern="ss2 ?(.*)"))
 async def _(event):

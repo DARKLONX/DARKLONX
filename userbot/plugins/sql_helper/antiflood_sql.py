@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String
 
-from DARKLONX.plugins.sql_helper import BASE, SESSION
+from LEGENDX.plugins.sql_helper import BASE, SESSION
 
 DEF_COUNT = 0
 DEF_LIMIT = 0

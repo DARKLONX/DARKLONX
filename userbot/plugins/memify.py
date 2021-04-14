@@ -5,8 +5,8 @@
 from PIL import Image, ImageFont, ImageDraw
 import textwrap
 import os
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, sudo_cmd
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, sudo_cmd
 from var import Var
 # how a lazy guy ports.
 client = borg

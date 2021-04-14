@@ -8,7 +8,7 @@
 
 from telethon import events
 import requests
-from DARKLONX.utils import admin_cmd
+from LEGENDX.utils import admin_cmd
 from justwatch import JustWatch
 
 def get_stream_data(query):

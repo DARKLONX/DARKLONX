@@ -9,8 +9,8 @@ import time
 import math
 from datetime import datetime
 from telethon import events
-from DARKLONX import CMD_HELP
-from DARKLONX.utils import admin_cmd, progress
+from LEGENDX import CMD_HELP
+from LEGENDX.utils import admin_cmd, progress
 #
 from googleapiclient.discovery import build
 from apiclient.http import MediaFileUpload
