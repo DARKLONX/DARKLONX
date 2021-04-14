@@ -49,7 +49,7 @@ for name in files:
 
 import LEGENDX._core
 
-print("DARKLON BOT is on fire 🔥🔥🔥 all files installed on your bot.... Join @DARKLONXCHAT for any help..")
+print("DARKLON BOT is on fire 🔥🔥🔥 all files installed on your bot.... Join @LEGENDXCHAT for any help..")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
