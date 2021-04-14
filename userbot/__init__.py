@@ -4,8 +4,8 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from DARKLONX.helpers import functions as simpdef
-from DARKLONX.uniborgConfig import Config
+from LEGENDX.helpers import functions as simpdef
+from LEGENDX.uniborgConfig import Config
 from var import Var
 darklonversion = "3.0"
 StartTime = time.time()
