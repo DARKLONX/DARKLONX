@@ -4,8 +4,8 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from LEGENDX.helpers import functions as simpdef
-from LEGENDX.uniborgConfig import Config
+from DARKLONX.helpers import functions as simpdef
+from DARKLONX.uniborgConfig import Config
 from var import Var
 darklonversion = "3.0"
 StartTime = time.time()
@@ -30,7 +30,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-LEGENDX_ID = ["1100231654"]
+DARKLONX_ID = ["1100231654"]
 
 """ PPE initialization. """
 
@@ -199,5 +199,5 @@ AFKREASON = None
 SUDO_LIST = {}
 
 
-from LEGENDX.helpers import *
-from LEGENDX.helpers import functions as legdef
+from DARKLONX.helpers import *
+from DARKLONX.helpers import functions as legdef
