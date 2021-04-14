@@ -7,7 +7,7 @@ from telethon import TelegramClient
 from DARKLONX.helpers import functions as simpdef
 from DARKLONX.uniborgConfig import Config
 from var import Var
-legendversion = "3.0"
+darklonversion = "3.0"
 StartTime = time.time()
 
 os.system("pip install --upgrade pip")
@@ -30,7 +30,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-DARKLONX_ID = ["1100231654"]
+LEGENDX_ID = ["1100231654"]
 
 """ PPE initialization. """
 
