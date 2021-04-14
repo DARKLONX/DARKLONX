@@ -3,9 +3,9 @@ import time
 
 from telethon.errors import FloodWaitError
 from telethon.tl import functions
-from userbot.utils import edit_or_reply, admin_cmd
+from DARKLONX.utils import edit_or_reply, admin_cmd
 
-from userbot import ALIVE_NAME, CMD_HELP, BIO_MSG
+from DARKLONX import ALIVE_NAME, CMD_HELP, BIO_MSG
 
 
 DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "ʟɛɢɛռɖaʀʏ ᴀғ ɦɛʟʟɮօt"

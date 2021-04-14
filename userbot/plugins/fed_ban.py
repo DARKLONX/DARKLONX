@@ -3,10 +3,10 @@
 # KEEP CREDITS PLEASE 🥺
 import asyncio
 from DARKLONX import NAME
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from DARKLONX import CMD_HELP
+from DARKLONX.utils import admin_cmd
 # By (@proboy22), and (@DARKLONX)
-from userbot import bot
+from DARKLONX import bot
 PRO = NAME
 @bot.on(admin_cmd("superfban ?(.*)"))
 async def _(event):

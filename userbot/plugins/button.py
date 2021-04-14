@@ -8,7 +8,7 @@
                  CREDITS TEAMDARKLONX
                DONT REMOVE THIS LINES
 """
-from userbot.utils import admin_cmd
+from DARKLONX.utils import admin_cmd
 from DARKLONX import xbot, NAME
 from telethon import Button
 @borg.on(admin_cmd(pattern="button (.*)"))

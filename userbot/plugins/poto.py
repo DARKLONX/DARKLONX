@@ -8,7 +8,7 @@ import logging
 
 
 
-from userbot.utils import admin_cmd
+from DARKLONX.utils import admin_cmd
 
 
 

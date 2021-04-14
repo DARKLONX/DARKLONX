@@ -1,12 +1,12 @@
 # thanks to @Skastickers for stickers....
 # Among us.....
-#credits to catuserbot
+#credits to catDARKLONX
 
 
 import asyncio
 
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import ALIVE_NAME, CMD_HELP
+from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from DARKLONX import ALIVE_NAME, CMD_HELP
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 

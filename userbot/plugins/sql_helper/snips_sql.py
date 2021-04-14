@@ -1,5 +1,5 @@
 from sqlalchemy import Column, UnicodeText, LargeBinary, Numeric
-from userbot.plugins.sql_helper import SESSION, BASE
+from DARKLONX.plugins.sql_helper import SESSION, BASE
 
 
 class Snips(BASE):

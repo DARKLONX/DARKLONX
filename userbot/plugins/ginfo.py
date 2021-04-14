@@ -12,8 +12,8 @@
 """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from DARKLONX import CMD_HELP
+from DARKLONX.utils import admin_cmd
 from DARKLONX import MASTER
 DARKLONX = MASTER
 PROBOY = "@tgscanrobot"

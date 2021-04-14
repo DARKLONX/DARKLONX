@@ -13,8 +13,8 @@ merged by @DARKLONX
 import random
 from asyncio import sleep
 
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
-from userbot import CMD_HELP
+from DARKLONX.utils import admin_cmd, edit_or_reply, sudo_cmd
+from DARKLONX import CMD_HELP
 
 
 @bot.on(admin_cmd(pattern=r"sing$", outgoing=True))

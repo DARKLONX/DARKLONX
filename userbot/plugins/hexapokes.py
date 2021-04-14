@@ -2,8 +2,8 @@
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot import ALIVE_NAME, CMD_HELP
-from userbot.utils import admin_cmd
+from DARKLONX import ALIVE_NAME, CMD_HELP
+from DARKLONX.utils import admin_cmd
 
 naam = str(ALIVE_NAME)
 

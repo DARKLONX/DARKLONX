@@ -14,7 +14,7 @@
 from telethon import events, Button, custom
 import re, os
 from DARKLONX import PHOTO, xbot, BOT, VERSION
-from userbot import bot
+from DARKLONX import bot
 @xbot.on(events.NewMessage(pattern=("/alive|/start")))
 async def awake(event):
   DARKLONX = f"ʜᴇʟʟᴏ ᴛʜɪs ɪs  {BOT}\n\n"

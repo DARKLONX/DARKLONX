@@ -2,9 +2,9 @@ import asyncio
 # made by telebot
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from DARKLONX import NAME
-from userbot import CMD_HELP
-from userbot import bot
-from userbot.utils import admin_cmd
+from DARKLONX import CMD_HELP
+from DARKLONX import bot
+from DARKLONX.utils import admin_cmd
 
 bot = "@MissRose_bot"
 DARKLONX = NAME

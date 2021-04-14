@@ -2,8 +2,8 @@
 Syntax: .get_bot"""
 from telethon import events
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
-from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from DARKLONX import CMD_HELP
+from DARKLONX.utils import admin_cmd
 
 
 @borg.on(admin_cmd("get_bot ?(.*)"))

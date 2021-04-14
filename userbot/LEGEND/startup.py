@@ -1,7 +1,7 @@
 # HELLO THIS IS 1ST TUTORIAL
 
 # for DARKLONX
-from userbot.utils import admin_cmd
+from DARKLONX.utils import admin_cmd
 import asyncio
 @borg.on(admin_cmd(pattern="hi"))
 async def legendx(event):

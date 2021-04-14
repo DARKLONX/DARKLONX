@@ -1,6 +1,6 @@
 #Made by@DARKLONX for @DARKLONX_USERBOT_SUPPORT
 
-from userbot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from DARKLONX.utils import admin_cmd, sudo_cmd, edit_or_reply
 from var import Var
 
 

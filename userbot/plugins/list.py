@@ -9,9 +9,9 @@ import os.path
 import time
 from os.path import exists, isdir
 
-from userbot import CMD_HELP
-from userbot.events import register
-from userbot.utils import humanbytes
+from DARKLONX import CMD_HELP
+from DARKLONX.events import register
+from DARKLONX.utils import humanbytes
 
 MAX_MESSAGE_SIZE_LIMIT = 4095
 
@@ -114,7 +114,7 @@ CMD_HELP.update(
     {
         "list": "**Plugin : **`list`\
     \n\n**Syntax : **`.ls`\
-    \n**Function : **this plugin give you your full files from userbot"
+    \n**Function : **this plugin give you your full files from DARKLONX"
     }
 )
 

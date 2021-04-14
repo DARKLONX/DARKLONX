@@ -16,13 +16,13 @@ except:
   from pyrogram import Client, idle
 
 import asyncio
-from userbot.utils import admin_cmd as legendx
-from userbot import bot as DARKLONX
+from DARKLONX.utils import admin_cmd as legendx
+from DARKLONX import bot as DARKLONX
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
 from telethon import events, custom, Button, TelegramClient
 import time
-from userbot import botnickname, ALIVE_NAME, bot
+from DARKLONX import botnickname, ALIVE_NAME, bot
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
 xbot = TelegramClient("legend", API_ID, API_HASH).start(bot_token=token)
 pbot = Client("DARKLONX", api_id=API_ID, api_hash=API_HASH, bot_token=token)

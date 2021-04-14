@@ -6,8 +6,8 @@
 
 import re
 import random
-from userbot import bot
-from userbot.utils import admin_cmd
+from DARKLONX import bot
+from DARKLONX.utils import admin_cmd
 
 
 IF_EMOJI = re.compile(

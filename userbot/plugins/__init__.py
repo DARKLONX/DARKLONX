@@ -1,4 +1,4 @@
-from userbot import simpdef
+from DARKLONX import simpdef
 from ..helper import functions as legend
 
 
