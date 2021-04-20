@@ -109,6 +109,8 @@ if ENV:
         # malicious users could do ".exec rm -rf /*"
         SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
         # VeryStream only supports video formats
+        SUDO_COMMAND_HAND_LER = os.environ.get("SUDO_COMMAND_HAND_LER", r"\.")
+        # set this with required folder path to act as download folder
         VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
         VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
         GROUP_REG_SED_EX_BOT_S = os.environ.get("GROUP_REG_SED_EX_BOT_S", r"(regex|moku|BananaButler_|rgx|l4mR)bot")
